@@ -1,20 +1,20 @@
 #### 1. Enable three finger drag
-a) System Preferences -> Accessibility -> Trackpad -> ..
+1. System Preferences -> Accessibility -> Trackpad -> ..
 
 
 #### 2. Setup finder:
-a) new finder window shows: Shabaz
-b) tags: none
-c) setup sidebar favs
-d) advanced: “show all filename extensions”
+1. new finder window shows: Shabaz
+2. tags: none
+3. setup sidebar favs
+4. advanced: “show all filename extensions”
 
 
 #### 4. Better touch tool
-a) take screenshot of all settings
+1. take screenshot of all settings
 
 
 #### 3. Karabiner elements:
-a) Create JSON file to add arrows: .config/karabiner/assets/complex_modifications/arrows.json
+1. Create JSON file to add arrows: .config/karabiner/assets/complex_modifications/arrows.json
 ```
 {
   "title": "Right Command + IJKL arrows",
@@ -106,7 +106,7 @@ a) Create JSON file to add arrows: .config/karabiner/assets/complex_modification
 
 
 #### 4. Hammer spoon
-a) After installing, click the taskbar icon and select "open config", add the following code:
+1. After installing, click the taskbar icon and select "open config", add the following code:
 ```
 -- HANDLE SCROLLING
 local oldmousepos = {}
