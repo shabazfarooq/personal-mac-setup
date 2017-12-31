@@ -18,7 +18,7 @@
 
 
 #### 4. Karabiner Elements
-1. Create JSON file to add arrows: .config/karabiner/assets/complex_modifications/arrows.json
+1. Create JSON file to add Pok3r keys: .config/karabiner/assets/complex_modifications/arrows.json
 ```
 {
   "title": "Right Command + IJKL arrows",
@@ -103,6 +103,49 @@
           "type": "basic"
         }
       ]
+    },
+    {
+      "description": "Right command + u/o to pageup/pagedown",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_up"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_down"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     }
   ]
 }
@@ -145,6 +188,10 @@ mousetap:start()
 
 
 ### 6. Iterm2
+1. Disable confirm quit: Open Preferences, under "Closing" uncheck all items
+2. Open new tabs in same dir: Open Preferences, Go to Profiles Tab, under "Working Directory" select "Reuse previous sessions directory"
+3. Set colors: Open Preferences, Go to Profiles tab, Select Colors subtab, Set "Foreground" to black, and "Background" to white.
+4. Setup move tabs shortcut: Open preferences, go to Keys tab, set: Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
 1. Edit/Create .bash_profile
 ```
 export PS1="\u: \w > "
