@@ -21,7 +21,7 @@ System Preferences > Dock > "Automatically hide and show the Dock"
 1. In advanced settings, select "Launch BetterTouchTool on startup"
 2. In advanced settings, unselect "Show Menubar icon"
 1. Setup keyboard shortcuts:
-![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BetterTouchToolKB.png "")
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BetterTouchTool_KB.png "")
 
 
 
