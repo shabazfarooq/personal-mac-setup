@@ -230,6 +230,15 @@ Install extensions:
 4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /usr/local/Cellar/ant/1.10.1/libexec/lib
 
 ### 8. Sublime Text
+##### Install Agila theme
+Add to preferences:
+```
+	"theme": "Agila.sublime-theme",
+  	"color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
+	"theme_agila_sidebar_small": true
+
+```
+
 ##### Setup preferences.sublime-settings
 ```
 {
@@ -252,16 +261,11 @@ Install extensions:
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"ForceFastSave",
-		"ForceSave",
-		"FTPSync",
-		"MavensMate",
 		"Vintage"
 	],
 	"ignored_words":
 	[
 		"Accessor",
-		"Pov",
 		"callout",
 		"picklist"
 	],
@@ -269,10 +273,6 @@ Install extensions:
 	[
 		"draw_normal",
 		"draw_active"
-	],
-	"install_prereleases":
-	[
-		"MavensMate"
 	],
 	"preview_on_click": false,
 	"rulers":
@@ -282,9 +282,7 @@ Install extensions:
 	],
 	"spell_check": true,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	    "theme": "Lanzhou.sublime-theme",
-    "color_scheme": "Packages/Theme - Lanzhou/base16-ocean.dark.tmTheme"
+	"translate_tabs_to_spaces": true
 }
 
 ```
