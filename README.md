@@ -18,6 +18,8 @@ System Preferences > Dock > "Automatically hide and show the Dock"
 
 
 #### 3. BetterTouchTool
+1. In advanced settings, select "Launch BetterTouchTool on startup"
+2. In advanced settings, unselect "Show Menubar icon"
 1. Setup keyboard shortcuts:
 ![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BetterTouchToolKB.png "")
 
@@ -160,37 +162,43 @@ System Preferences > Dock > "Automatically hide and show the Dock"
 
 
 #### 5. Hammer spoon
-1. Open Preferences, deselect "Show Dock Icon"
-2. After installing, click the taskbar icon and select "open config", add the following code:
+1. After installing, click the taskbar icon and select "open config", add the following code:
 ```
 -- HANDLE SCROLLING
 local oldmousepos = {}
-local scrollmult = -4	-- negative multiplier makes mouse work like traditional scrollwheel
+-- positive multiplier (== natural scrolling) makes mouse work like traditional scrollwheel
+local scrollmult = 4 
 
-mousetap = hs.eventtap.new({5}, function(e)
-	oldmousepos = hs.mouse.getAbsolutePosition()
-	local mods = hs.eventtap.checkKeyboardModifiers()
-	if mods['ctrl'] and mods['cmd'] then
-		-- print ("will scroll")
-		local dx = e:getProperty(hs.eventtap.event.properties['mouseEventDeltaX'])
-		local dy = e:getProperty(hs.eventtap.event.properties['mouseEventDeltaY'])
-		local scroll = hs.eventtap.event.newScrollEvent({dx * scrollmult, dy * scrollmult},{},'pixel')
-		scroll:post()
-		
-		-- put the mouse back
-		hs.mouse.setAbsolutePosition(oldmousepos)
-		
-		-- return true, {scroll}
-		return true
-	else
-		return false, {}
-	end
-	-- print ("Mouse moved!")
-	-- print (dx)
-	-- print (dy)
+-- The were all events logged, when using `{"all"}`
+mousetap = hs.eventtap.new({0,3,5,14,25,26,27}, function(e)
+  oldmousepos = hs.mouse.getAbsolutePosition()
+  local mods = hs.eventtap.checkKeyboardModifiers()
+  local pressedMouseButton = e:getProperty(hs.eventtap.event.properties['mouseEventButtonNumber'])
+  -- If OSX button 4 is pressed, allow scrolling
+  local shouldScroll = 3 == pressedMouseButton
+
+  if shouldScroll then
+    local dx = e:getProperty(hs.eventtap.event.properties['mouseEventDeltaX'])
+    local dy = e:getProperty(hs.eventtap.event.properties['mouseEventDeltaY'])
+    local scroll = hs.eventtap.event.newScrollEvent({dx * scrollmult, dy * scrollmult},{},'pixel')
+    scroll:post()
+
+    -- put the mouse back
+    hs.mouse.setAbsolutePosition(oldmousepos)
+
+    return true, {scroll}
+  else
+    return false, {}
+  end
+    -- print ("Mouse moved!")
+    -- print (dx)
+    -- print (dy)
 end)
+
 mousetap:start()
 ```
+2. Open Preferences, deselect "Show Dock Icon", deselect "Show Toolbar Icon", and select "startup at login" if not already selected
+
 
 
 
