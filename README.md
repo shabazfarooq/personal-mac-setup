@@ -247,7 +247,10 @@ Install extensions:
 2. Install [Force-Faster-Save](https://github.com/shabazfarooq/Force-Faster-Save) to ~/node-workspace/ then npm install in folder
 3. Create new build system in sublime for sfdc:
 ```
-
+{
+  "cmd": ["~/node-workspace/Force-Faster-Save/main.js ${file}"],
+  "shell": true
+}
 ```
 
 setup build for salesforce
