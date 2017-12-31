@@ -239,12 +239,15 @@ Install extensions:
 2. Install "Clipboard Diff"
 3. Install "Pretty JSON"
 4. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
-5. 
+5. SFDC Syntax Highlighting: 1) Create folder: ~/Library/Application Support/Sublime Text 3/Packages/SFDC-Syntax 2) copy both files from [here](https://github.com/joshbirk/ForceDotBundle/tree/master/Syntaxes) to new folder. Files will auto use this no further setup necessarry.
+
+
+##### Setup SFDC save:
+
 
 
 setup build for salesforce
 
-sfdc syntax
 
 
 
