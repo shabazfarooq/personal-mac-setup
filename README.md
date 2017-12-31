@@ -230,7 +230,17 @@ Install extensions:
 4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /usr/local/Cellar/ant/1.10.1/libexec/lib
 
 ### 8. Sublime Text
-3. 
+##### Setup preferences.sublime-settings
+```
+...
+```
+##### Plugins:
+1. Install [Package Control](https://packagecontrol.io/installation)
+2. Install "Clipboard Diff"
+3. Install "Pretty JSON"
+force actions
+sfdc syntax
+
 
 
 
