@@ -1,21 +1,23 @@
-#### 1. Enable three finger drag
+#### 1. Enable Three Finger Drag
 1. System Preferences -> Accessibility -> Trackpad -> ..
 
 
-#### 2. Setup finder:
+
+#### 2. Setup Finder:
 1. new finder window shows: Shabaz
 2. tags: none
 3. setup sidebar favs
 4. advanced: “show all filename extensions”
 
 
-#### 4. Better touch tool
+
+#### 3. BetterTouchTool
 1. Setup keyboard shortcuts:
 ![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BetterTouchToolKB.png "")
 
 
 
-#### 3. Karabiner elements:
+#### 4. Karabiner Elements
 1. Create JSON file to add arrows: .config/karabiner/assets/complex_modifications/arrows.json
 ```
 {
@@ -107,7 +109,8 @@
 ```
 
 
-#### 4. Hammer spoon
+
+#### 5. Hammer spoon
 1. After installing, click the taskbar icon and select "open config", add the following code:
 ```
 -- HANDLE SCROLLING
@@ -140,9 +143,12 @@ mousetap:start()
 ```
 
 
-5. Iterm2: a)  
 
+### 6. Iterm2
+1. Edit/Create .bash_profile
+```
 
+```
 
 Apps:
 Chrome
