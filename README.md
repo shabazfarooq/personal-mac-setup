@@ -194,7 +194,8 @@ mousetap:start()
 3. Set colors: Open Preferences, Go to Profiles tab, Select Colors subtab, Set "Foreground" to black, and "Background" to white.
 4. Setup move tabs shortcut: Open preferences, go to Keys tab, set: Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
 5. Set font: Open Preferences, go to Profiles tab, select Text subtab, select "Change Font" and set to 15
-6. Edit/Create .bash_profile (if it doesn't work, create .bashrc)
+6. Always show tab bar: Open Preferences, go to Apperance tab, select "Show tab bar even when there is only one tab"
+7. Edit/Create .bash_profile (if it doesn't work, create .bashrc)
 ```
 export PS1="\u: \w > "
 export CLICOLOR=1
