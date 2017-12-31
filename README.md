@@ -21,15 +21,17 @@ System Preferences > Dock > "Automatically hide and show the Dock"
 1. In advanced settings, select "Launch BetterTouchTool on startup"
 2. In advanced settings, unselect "Show Menubar icon"
 1. Setup keyboard shortcuts:
-![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BetterTouchTool_KB.png "")
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BTT_KB.png "")
 
 
 
 #### 4. Karabiner Elements
-1. Create JSON file to add Pok3r keys: .config/karabiner/assets/complex_modifications/arrows.json
+1. Swap command and option (use this if standard option to swap is not working):
+!(https://github.com/shabazfarooq/personal-mac-setup/blob/master/Karabiner_Simple.png)
+2. Create JSON file to add Pok3r keys: .config/karabiner/assets/complex_modifications/arrows.json
 ```
 {
-  "title": "Right Command + IJKL arrows",
+  "title": "Pok3r arrow and pageup/down keys",
   "rules": [
     {
       "description": "Right Command + i/j/k/l to arrows",
