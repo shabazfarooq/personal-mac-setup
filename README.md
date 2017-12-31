@@ -256,7 +256,26 @@ Then for SFDC files set it to use this build system (tools>build..)
 ```
 4. Setup keyboard shortcuts, click "Sublime Text", "Preferences", "Key Bindings":
 ```
-
+[
+  {
+    "keys": [
+      "ctrl+shift+pageup"
+    ],
+    "command": "move_tab",
+    "args": {
+      "position": "-1"
+    }
+  },
+  {
+    "keys": [
+      "ctrl+shift+pagedown"
+    ],
+    "command": "move_tab",
+    "args": {
+      "position": "+1"
+    }
+  }
+]
 ```
 
 
