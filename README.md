@@ -10,7 +10,9 @@
 
 
 #### 4. Better touch tool
-1. take screenshot of all settings
+1. Setup keyboard shortcuts:
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BetterTouchToolKB.png "")
+
 
 
 #### 3. Karabiner elements:
