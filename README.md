@@ -147,7 +147,13 @@ mousetap:start()
 ### 6. Iterm2
 1. Edit/Create .bash_profile
 ```
+export PS1="\u: \w > "
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -n"
 
+# Sublime alias
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 ```
 
 Apps:
