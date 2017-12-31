@@ -214,10 +214,9 @@ Install extensions:
 6. Adblock Plus
 7. StreetEasy, apartment to work
 
-
-Apps:
-Chrome
-Sublime Text
+### 8. Sublime Text
+1. Install [create-force-login](https://github.com/shabazfarooq/force-login-setup) to /usr/local/bin
+2. 
 
 
 
