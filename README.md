@@ -238,7 +238,12 @@ Install extensions:
 1. Install [Package Control](https://packagecontrol.io/installation)
 2. Install "Clipboard Diff"
 3. Install "Pretty JSON"
-force actions
+4. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
+5. 
+
+
+setup build for salesforce
+
 sfdc syntax
 
 
