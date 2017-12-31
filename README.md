@@ -154,7 +154,8 @@
 
 
 #### 5. Hammer spoon
-1. After installing, click the taskbar icon and select "open config", add the following code:
+1. Open Preferences, deselect "Show Dock Icon"
+2. After installing, click the taskbar icon and select "open config", add the following code:
 ```
 -- HANDLE SCROLLING
 local oldmousepos = {}
