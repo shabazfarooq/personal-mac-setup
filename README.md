@@ -23,7 +23,7 @@ Sublime Text
 
 
 
-
+```
 -- HANDLE SCROLLING
 local oldmousepos = {}
 local scrollmult = -4	-- negative multiplier makes mouse work like traditional scrollwheel
@@ -51,3 +51,4 @@ mousetap = hs.eventtap.new({5}, function(e)
 	-- print (dy)
 end)
 mousetap:start()
+```
