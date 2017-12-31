@@ -232,7 +232,61 @@ Install extensions:
 ### 8. Sublime Text
 ##### Setup preferences.sublime-settings
 ```
-...
+{
+	"auto_close_tags": false,
+	"auto_match_enabled": false,
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 3,
+	"caret_extra_width": 2,
+	"draw_white_space": "all",
+	"file_exclude_patterns":
+	[
+		"*meta.xml",
+		"*sublime*"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn"
+	],
+	"font_size": 16,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"ForceFastSave",
+		"ForceSave",
+		"FTPSync",
+		"MavensMate",
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"Accessor",
+		"Pov",
+		"callout",
+		"picklist"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"install_prereleases":
+	[
+		"MavensMate"
+	],
+	"preview_on_click": false,
+	"rulers":
+	[
+		80,
+		100
+	],
+	"spell_check": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	    "theme": "Lanzhou.sublime-theme",
+    "color_scheme": "Packages/Theme - Lanzhou/base16-ocean.dark.tmTheme"
+}
+
 ```
 ##### Plugins:
 1. Install [Package Control](https://packagecontrol.io/installation)
