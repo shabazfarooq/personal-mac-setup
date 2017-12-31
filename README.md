@@ -240,21 +240,7 @@ Install extensions:
 3. Install "Pretty JSON"
 4. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
 5. SFDC Syntax Highlighting: 1) Create folder: ~/Library/Application Support/Sublime Text 3/Packages/SFDC-Syntax 2) copy both files from [here](https://github.com/joshbirk/ForceDotBundle/tree/master/Syntaxes) to new folder. Files will auto use this no further setup necessarry.
-
-
-##### Setup SFDC save:
-1. Install NPM: brew install npm
-2. Install [Force-Faster-Save](https://github.com/shabazfarooq/Force-Faster-Save) to ~/node-workspace/ then npm install in folder
-3. Create new build system in sublime for sfdc:
-create file and add: ~/Library/Application Support/Sublime Text 3/Packages/User/Force-Faster-Save.sublime-build
-Then for SFDC files set it to use this build system (tools>build..)
-```
-{
-  "cmd": ["~/node-workspace/Force-Faster-Save/main.js ${file}"],
-  "shell": true
-}
-```
-4. Setup keyboard shortcuts, click "Sublime Text", "Preferences", "Key Bindings":
+6. Install MoveTab, then Setup keyboard shortcuts, click "Sublime Text", "Preferences", "Key Bindings":
 ```
 [
   {
@@ -277,6 +263,21 @@ Then for SFDC files set it to use this build system (tools>build..)
   }
 ]
 ```
+
+
+##### Setup SFDC save:
+1. Install NPM: brew install npm
+2. Install [Force-Faster-Save](https://github.com/shabazfarooq/Force-Faster-Save) to ~/node-workspace/ then npm install in folder
+3. Create new build system in sublime for sfdc:
+create file and add: ~/Library/Application Support/Sublime Text 3/Packages/User/Force-Faster-Save.sublime-build
+Then for SFDC files set it to use this build system (tools>build..)
+```
+{
+  "cmd": ["~/node-workspace/Force-Faster-Save/main.js ${file}"],
+  "shell": true
+}
+```
+
 
 
 
