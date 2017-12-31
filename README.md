@@ -207,7 +207,7 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 ### 7. Chrome
 Install extensions:
 1. [SFDC Chrome Shortcuts](https://github.com/shabazfarooq/SFDC-Shortcuts-Chrome)
-2. 
+2. [Duplicate Tab Shortcut Key](https://chrome.google.com/webstore/detail/duplicate-tab-shortcut-ke/pfippblampohahkkdoomekekmfbjkimg?hl=en)
 
 
 Apps:
