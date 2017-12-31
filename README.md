@@ -308,7 +308,7 @@ Add to preferences:
 2. Install "Clipboard Diff"
 3. Install "Pretty JSON"
 4. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
-5. SFDC Syntax Highlighting: 1) Create folder: ~/Library/Application Support/Sublime Text 3/Packages/SFDC-Syntax 2) copy both files from [here](https://github.com/joshbirk/ForceDotBundle/tree/master/Syntaxes) to new folder. Files will auto use this no further setup necessarry.
+5. SFDC Syntax Highlighting: git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
 6. Install MoveTab, then Setup keyboard shortcuts, click "Sublime Text", "Preferences", "Key Bindings":
 ```
 [
