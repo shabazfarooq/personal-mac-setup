@@ -1,6 +1,12 @@
 #### 1. Enable Three Finger Drag
 1. System Preferences -> Accessibility -> Trackpad -> ..
 
+#### Dark Theme
+System Preferences > General > "Use dark menu bar and Dock"
+
+#### Hide Dock
+Size: small
+System Preferences > Dock > "Automatically hide and show the Dock"
 
 
 #### 2. Setup Finder:
