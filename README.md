@@ -243,8 +243,12 @@ Install extensions:
 
 
 ##### Setup SFDC save:
+1. Install NPM: brew install npm
+2. Install [Force-Faster-Save](https://github.com/shabazfarooq/Force-Faster-Save) to ~/node-workspace/ then npm install in folder
+3. Create new build system in sublime for sfdc:
+```
 
-
+```
 
 setup build for salesforce
 
