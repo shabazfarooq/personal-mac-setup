@@ -193,7 +193,7 @@ mousetap:start()
 2. Open new tabs in same dir: Open Preferences, Go to Profiles Tab, under "Working Directory" select "Reuse previous sessions directory"
 3. Set colors: Open Preferences, Go to Profiles tab, Select Colors subtab, Set "Foreground" to black, and "Background" to white.
 4. Setup move tabs shortcut: Open preferences, go to Keys tab, set: Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
-1. Edit/Create .bash_profile
+1. Edit/Create .bash_profile (if it doesn't work, create .bashrc)
 ```
 export PS1="\u: \w > "
 export CLICOLOR=1
@@ -203,6 +203,12 @@ export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -n"
 # Sublime alias
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 ```
+
+### 7. Chrome
+Install extensions:
+1. [SFDC Chrome Shortcuts](https://github.com/shabazfarooq/SFDC-Shortcuts-Chrome)
+2. 
+
 
 Apps:
 Chrome
