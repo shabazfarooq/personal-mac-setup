@@ -192,6 +192,7 @@ mousetap:start()
 1. Disable confirm quit: Open Preferences, under "Closing" uncheck all items
 2. Open new tabs in same dir: Open Preferences, Go to Profiles Tab, under "Working Directory" select "Reuse previous sessions directory"
 3. Set colors: Open Preferences, Go to Profiles tab, Select Colors subtab, Set "Foreground" to black, and "Background" to white.
+dark theme: bg: 1e1f29 fg: bfbfbf
 4. Setup move tabs shortcut: Open preferences, go to Keys tab, set: Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
 5. Set font: Open Preferences, go to Profiles tab, select Text subtab, select "Change Font" and set to 15
 6. Always show tab bar: Open Preferences, go to Apperance tab, select "Show tab bar even when there is only one tab"
