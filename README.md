@@ -1,4 +1,4 @@
-1. Enable three finger drag
+###1. Enable three finger drag
 	a) System Preferences -> Accessibility -> Trackpad -> ..
 
 3. Setup finder:  a) new finder window shows: Shabaz b) tags: none c) setup sidebar favs d) advanced: “show all filename extensions”
@@ -8,7 +8,8 @@
 
 3. Karabiner elements: a) add right command key + arrow keys b) get JSON file and note location: .config/karabiner/assets/complex_modifications/something.json
 
-4. Hammer spoon a) instal it b) on the icon near clock click it, and select “open config” c) add the following code: down below
+4. Hammer spoon
+a) instal it b) on the icon near clock click it, and select “open config” c) add the following code: down below
 
 
 5. Iterm2: a)  
