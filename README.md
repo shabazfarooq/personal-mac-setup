@@ -193,7 +193,8 @@ mousetap:start()
 2. Open new tabs in same dir: Open Preferences, Go to Profiles Tab, under "Working Directory" select "Reuse previous sessions directory"
 3. Set colors: Open Preferences, Go to Profiles tab, Select Colors subtab, Set "Foreground" to black, and "Background" to white.
 4. Setup move tabs shortcut: Open preferences, go to Keys tab, set: Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
-1. Edit/Create .bash_profile (if it doesn't work, create .bashrc)
+5. Set font: Open Preferences, go to Profiles tab, select Text subtab, select "Change Font" and set to 15
+6. Edit/Create .bash_profile (if it doesn't work, create .bashrc)
 ```
 export PS1="\u: \w > "
 export CLICOLOR=1
@@ -216,7 +217,11 @@ Install extensions:
 
 ### 8. Sublime Text
 1. Install [create-force-login](https://github.com/shabazfarooq/force-login-setup) to /usr/local/bin
-2. 
+(this contains build.xml and package.xml, add them to the parent sfdc-directory)
+2. Install [force-cli](https://developer.salesforce.com/tools/forcecli) to /usr/local/bin
+(chmod +x the force file, copy it to force-original as well)
+3. 
+
 
 
 
