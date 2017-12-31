@@ -246,6 +246,8 @@ Install extensions:
 1. Install NPM: brew install npm
 2. Install [Force-Faster-Save](https://github.com/shabazfarooq/Force-Faster-Save) to ~/node-workspace/ then npm install in folder
 3. Create new build system in sublime for sfdc:
+create file and add: ~/Library/Application Support/Sublime Text 3/Packages/User/Force-Faster-Save
+Then for SFDC files set it to use this build system (tools>build..)
 ```
 {
   "cmd": ["~/node-workspace/Force-Faster-Save/main.js ${file}"],
