@@ -1,18 +1,112 @@
-### 1. Enable three finger drag
+#### 1. Enable three finger drag
 a) System Preferences -> Accessibility -> Trackpad -> ..
 
-### 2. Setup finder:
+
+#### 2. Setup finder:
 a) new finder window shows: Shabaz
 b) tags: none
 c) setup sidebar favs
 d) advanced: “show all filename extensions”
 
 
-### 4. Better touch tool
+#### 4. Better touch tool
 a) take screenshot of all settings
 
-### 3. Karabiner elements:
+
+#### 3. Karabiner elements:
 a) Create JSON file to add arrows: .config/karabiner/assets/complex_modifications/arrows.json
+```
+{
+  "title": "Right Command + IJKL arrows",
+  "rules": [
+    {
+      "description": "Right Command + i/j/k/l to arrows",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
+```
+
+
+#### 4. Hammer spoon
+a) After installing, click the taskbar icon and select "open config", add the following code:
 ```
 -- HANDLE SCROLLING
 local oldmousepos = {}
@@ -42,10 +136,6 @@ mousetap = hs.eventtap.new({5}, function(e)
 end)
 mousetap:start()
 ```
-
-
-4. Hammer spoon
-a) instal it b) on the icon near clock click it, and select “open config” c) add the following code: down below
 
 
 5. Iterm2: a)  
