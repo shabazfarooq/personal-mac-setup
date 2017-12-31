@@ -1,4 +1,4 @@
-###1. Enable three finger drag
+### 1. Enable three finger drag
 	a) System Preferences -> Accessibility -> Trackpad -> ..
 
 3. Setup finder:  a) new finder window shows: Shabaz b) tags: none c) setup sidebar favs d) advanced: “show all filename extensions”
