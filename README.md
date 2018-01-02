@@ -8,6 +8,8 @@ System Preferences > General > "Use dark menu bar and Dock"
 Size: small
 System Preferences > Dock > "Automatically hide and show the Dock"
 
+#### Key Repeat
+System Preferences > Keyboard > "Key Repeat" max right and "Delay Until Repeat" max right
 
 #### 2. Setup Finder:
 1. new finder window shows: Shabaz
