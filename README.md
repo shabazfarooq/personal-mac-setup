@@ -13,15 +13,31 @@ Extensions that will transfer over:
 4. [Tab to Window/Popup - Keyboard Shortcut](https://chrome.google.com/webstore/detail/tab-to-windowpopup-keyboa/adbkphmimfcaeonicpmamfddbbnphikh/related?hl=en)
 5. Adblock Plus
 
-#### Enable Three Finger Drag
-1. System Preferences -> Accessibility -> Trackpad -> ..
+### System Preferences
 
-#### Dark Theme
-System Preferences > General > "Use dark menu bar and Dock"
+##### General >
+"Use dark menu bar and Dock"
+"Default web browser": Chrome
+"Recent items": 5
 
-#### Hide Dock
-Size: small
-System Preferences > Dock > "Automatically hide and show the Dock"
+##### Dock >
+"Size": small
+"Automatically hide and show the Dock"
+"Minimize windows into applicaiton icon"
+
+##### Keyboard >
+"Key Repeat": Fast
+"Delay Unil Repeat": Short
+"Modifier keys.." > swap command and option *for usb keyboard*
+
+##### Mouse >
+"Tracking speed": Fast
+
+##### Trackpad >
+"Tap to click"
+To Enable Three Finger Drag: Accessibility > Mouse & Trackpad > Trackpad Options... > Enable dragging > three finger drag
+
+
 
 #### Key Repeat
 System Preferences > Keyboard > "Key Repeat" max right and "Delay Until Repeat" max right
