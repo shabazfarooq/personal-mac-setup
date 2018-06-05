@@ -17,7 +17,9 @@ Extensions that will transfer over:
 
 ##### General >
 "Use dark menu bar and Dock"
+
 "Default web browser": Chrome
+
 "Recent items": 5
 
 ##### Dock >
