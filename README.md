@@ -12,13 +12,16 @@ Extensions that will transfer over:
 3. [Salesforce API Fieldnames](https://chrome.google.com/webstore/detail/salesforce-api-fieldnames/oghajcjpbolpfoikoccffglngkphjgbo?hl=en)
 4. [Tab to Window/Popup - Keyboard Shortcut](https://chrome.google.com/webstore/detail/tab-to-windowpopup-keyboa/adbkphmimfcaeonicpmamfddbbnphikh/related?hl=en)
 5. Adblock Plus
-  
+
+
+
+
 ## System Preferences
 
 ##### General >
-"Use dark menu bar and Dock" . 
-"Default web browser": Chrome . 
-"Recent items": 5 . 
+"Use dark menu bar and Dock"
+"Default web browser": Chrome
+"Recent items": 5
 
 ##### Dock >
 "Size": small
@@ -39,10 +42,9 @@ To Enable Three Finger Drag: Accessibility > Mouse & Trackpad > Trackpad Options
 
 
 
-#### Key Repeat
-System Preferences > Keyboard > "Key Repeat" max right and "Delay Until Repeat" max right
 
-#### 2. Setup Finder:
+
+## 2. Setup Finder:
 1. new finder window shows: Shabaz
 2. tags: none
 3. setup sidebar favs
