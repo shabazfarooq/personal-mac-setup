@@ -139,6 +139,7 @@ mousetap:start()
 2. In advanced settings, unselect "Show Menubar icon"
 1. Setup keyboard shortcuts:
 ![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BTT_KB.png "")
+Also, setup fn+max brightness/min brightness if laptop
 
 
 
