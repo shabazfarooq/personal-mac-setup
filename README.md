@@ -1,7 +1,6 @@
 ### Install Chrome
 1. Download Chrome
-2. Sign in, all extensions available from the chrome app store will automatically install.
-3. Non-app store extensions will need to be installed manually (
+Sign in, all extensions available from the chrome app store will automatically install.While non-app store extensions will need to be installed manually
 
 Install extensions:
 1. [SFDC Chrome Shortcuts](https://github.com/shabazfarooq/SFDC-Shortcuts-Chrome)
