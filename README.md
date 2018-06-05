@@ -1,4 +1,4 @@
-### Install Chrome
+## Install Chrome
 1. Download Chrome
 Sign in, all extensions available from the chrome app store will automatically install.While non-app store extensions will need to be installed manually
 
@@ -13,7 +13,7 @@ Extensions that will transfer over:
 4. [Tab to Window/Popup - Keyboard Shortcut](https://chrome.google.com/webstore/detail/tab-to-windowpopup-keyboa/adbkphmimfcaeonicpmamfddbbnphikh/related?hl=en)
 5. Adblock Plus
 
-### System Preferences
+## System Preferences
 
 ##### General >
 "Use dark menu bar and Dock"
