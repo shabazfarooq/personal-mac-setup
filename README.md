@@ -146,7 +146,8 @@ Also, setup fn+max brightness/min brightness if laptop
 #### 4. Karabiner Elements
 1. Swap command and option (use this if standard option to swap is not working):
 ![](https://github.com/shabazfarooq/personal-mac-setup/blob/master/Karabiner_Simple.png)
-2. Create JSON file to add Pok3r keys: .config/karabiner/assets/complex_modifications/arrows.json
+2. a) Create JSON file to add Pok3r keys: .config/karabiner/assets/complex_modifications/arrows.json
+b) Then go to "Complex Modifications" > Add Rule > select enable all for Pok3r
 ```
 {
   "title": "Pok3r arrow and pageup/down keys",
