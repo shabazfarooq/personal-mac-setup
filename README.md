@@ -272,15 +272,13 @@ b) Then go to "Complex Modifications" > Add Rule > select enable all for Pok3r
 
 
 
-
-
-### 6. Iterm2
+## Iterm2
 1. Disable confirm quit: Open Preferences, under "Closing" uncheck all items
 2. Open new tabs in same dir: Open Preferences, Go to Profiles Tab, under "Working Directory" select "Reuse previous sessions directory"
-3. Set colors: Open Preferences, Go to Profiles tab, Select Colors subtab, Set "Foreground" to black, and "Background" to white.
-dark theme: bg: 1e1f29 fg: bfbfbf
-4. Setup move tabs shortcut: Open preferences, go to Keys tab, set: Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
+3. Set colors: Open Preferences, Go to Profiles tab, Select Colors subtab, Set bg: 1e1f29 fg: bfbfbf
 5. Set font: Open Preferences, go to Profiles tab, select Text subtab, select "Change Font" and set to 15
+4. Setup move tabs shortcut: Open preferences, go to Keys tab, set: Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
+
 6. Always show tab bar: Open Preferences, go to Apperance tab, select "Show tab bar even when there is only one tab"
 7. Edit/Create .bash_profile (if it doesn't work, create .bashrc)
 ```
@@ -296,29 +294,10 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 
 
-### Salesforce tools (not directly sublime related)
-1. Install [create-force-login](https://github.com/shabazfarooq/force-login-setup) to /usr/local/bin
-(this contains build.xml and package.xml, add them to the parent sfdc-directory)
-2. Install [force-cli](https://developer.salesforce.com/tools/forcecli) to /usr/local/bin
-(chmod +x the force file, copy it to force-original as well)
-
-##### Install ant:
-1. Install [Homebrew](https://brew.sh/)
-2. Install ant: brew install ant
-3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
-4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /usr/local/Cellar/ant/1.10.1/libexec/lib
-
-### 8. Sublime Text
-##### Install Agila theme
-Add to preferences:
-```
-	"theme": "Agila.sublime-theme",
-  	"color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
-	"theme_agila_sidebar_small": true
-
-```
-
-##### Setup preferences.sublime-settings
+## Sublime Text
+1. Downoad and install Sublimetext3
+2. Install [Package Control](https://packagecontrol.io/installation)
+3. Setup preferences.sublime-settings
 ```
 {
 	"auto_close_tags": false,
@@ -365,13 +344,19 @@ Add to preferences:
 }
 
 ```
-##### Plugins:
-1. Install [Package Control](https://packagecontrol.io/installation)
-2. Install "Clipboard Diff"
-3. Install "Pretty JSON"
-4. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
-5. SFDC Syntax Highlighting: git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
-6. Install MoveTab, then Setup keyboard shortcuts, click "Sublime Text", "Preferences", "Key Bindings":
+
+##### Install Plugins: Package Control: Install Package >
+1. "Agila theme"
+Add to preferences:
+```
+	"theme": "Agila.sublime-theme",
+  	"color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
+	"theme_agila_sidebar_small": true
+
+```
+2. "Clipboard Diff"
+3. "Pretty JSON"
+4. Install MoveTab, then Setup keyboard shortcuts, click "Sublime Text", "Preferences", "Key Bindings":
 ```
 [
   {
@@ -394,6 +379,31 @@ Add to preferences:
   }
 ]
 ```
+
+-----------------------------
+
+
+4. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
+5. SFDC Syntax Highlighting: git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
+
+
+
+
+
+
+### Salesforce tools (not directly sublime related)
+1. Install [create-force-login](https://github.com/shabazfarooq/force-login-setup) to /usr/local/bin
+(this contains build.xml and package.xml, add them to the parent sfdc-directory)
+2. Install [force-cli](https://developer.salesforce.com/tools/forcecli) to /usr/local/bin
+(chmod +x the force file, copy it to force-original as well)
+
+##### Install ant:
+1. Install [Homebrew](https://brew.sh/)
+2. Install ant: brew install ant
+3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
+4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /usr/local/Cellar/ant/1.10.1/libexec/lib
+
+
 
 
 ##### Setup SFDC save:
