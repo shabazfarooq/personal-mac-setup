@@ -80,7 +80,8 @@ Downloads
 -
 
 #### 5. Hammer spoon
-1. After installing, click the taskbar icon and select "open config", add the following code:
+1. Download and install
+2. click the taskbar icon and select "open config", add the following code:
 ```
 -- HANDLE SCROLLING
 local oldmousepos = {}
@@ -115,7 +116,8 @@ end)
 
 mousetap:start()
 ```
-2. Open Preferences, deselect "Show Dock Icon", deselect "Show Toolbar Icon", and select "startup at login" if not already selected
+3. Click the menu bar icon and select reload config
+4. Click the menu bar icon and select: Preferences, deselect "Show Dock Icon", deselect "Show Menu Icon", and select "startup at login" if not already selected
 
 
 
