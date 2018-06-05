@@ -44,7 +44,7 @@ To Enable Three Finger Drag: Accessibility > Mouse & Trackpad > Trackpad Options
 
 
 
-## Setup Finder:
+## Setup Finder
 General > 
 new finder window shows: Shabaz
 
@@ -77,9 +77,8 @@ Downloads
 
 
 
--
 
-#### 5. Hammer spoon
+## 5. Hammer spoon
 1. Download and install
 2. click the taskbar icon and select "open config", add the following code:
 ```
