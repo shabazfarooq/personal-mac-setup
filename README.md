@@ -121,20 +121,7 @@ mousetap:start()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### 3. BetterTouchTool
+## BetterTouchTool
 1. In advanced settings, select "Launch BetterTouchTool on startup"
 2. In advanced settings, unselect "Show Menubar icon"
 1. Setup keyboard shortcuts:
@@ -143,7 +130,8 @@ Also, setup fn+max brightness/min brightness if laptop
 
 
 
-#### 4. Karabiner Elements
+
+## 4. Karabiner Elements
 1. Misc > (uncheck) Show icon in menu bar
 2. Swap command and option (use this if standard option to swap is not working):
 ![](https://github.com/shabazfarooq/personal-mac-setup/blob/master/Karabiner_Simple.png)
