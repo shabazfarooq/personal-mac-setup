@@ -380,18 +380,13 @@ Add to preferences:
 ]
 ```
 
------------------------------
 
 
-4. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
-5. SFDC Syntax Highlighting: git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
+## Sublime Text [SFDC Related]
+1. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
+2. SFDC Syntax Highlighting: git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
 
-
-
-
-
-
-### Salesforce tools (not directly sublime related)
+##### Salesforce tools (not directly sublime related)
 1. Install [create-force-login](https://github.com/shabazfarooq/force-login-setup) to /usr/local/bin
 (this contains build.xml and package.xml, add them to the parent sfdc-directory)
 2. Install [force-cli](https://developer.salesforce.com/tools/forcecli) to /usr/local/bin
@@ -402,9 +397,6 @@ Add to preferences:
 2. Install ant: brew install ant
 3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
 4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /usr/local/Cellar/ant/1.10.1/libexec/lib
-
-
-
 
 ##### Setup SFDC save:
 1. Install NPM: brew install npm
