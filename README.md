@@ -53,21 +53,27 @@ unselect all
 
 Sidebar >
 check:
-- Applications
-- Desktop
-- Documents
-- Downloads
-- shabaz
+Applications
+Desktop
+Downloads
+shabaz
 
 uncheck:
 recents
 icloud drive
 airdrop
 uncheck recent tags
+Documents
 
 
 Advanced >
 “show all filename extensions”
+
+Reorder side bar as follows:
+shabaz
+Applications
+Desktop
+Downloads
 
 
 
