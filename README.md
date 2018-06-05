@@ -44,11 +44,30 @@ To Enable Three Finger Drag: Accessibility > Mouse & Trackpad > Trackpad Options
 
 
 
-## 2. Setup Finder:
-1. new finder window shows: Shabaz
-2. tags: none
-3. setup sidebar favs
-4. advanced: “show all filename extensions”
+## Setup Finder:
+General > 
+new finder window shows: Shabaz
+
+Tags >
+unselect all
+
+Sidebar >
+check:
+- Applications
+- Desktop
+- Documents
+- Downloads
+- shabaz
+
+uncheck:
+recents
+icloud drive
+airdrop
+uncheck recent tags
+
+
+Advanced >
+“show all filename extensions”
 
 
 
