@@ -389,7 +389,7 @@ Add to preferences:
 ##### Salesforce tools (not directly sublime related)
 1. Install [create-force-login](https://github.com/shabazfarooq/force-login-setup) to /usr/local/bin
 (this contains build.xml and package.xml, add them to the parent sfdc-directory)
-2. Install [force-cli](https://developer.salesforce.com/tools/forcecli) to /usr/local/bin
+2. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
 (chmod +x the force file, copy it to force-original as well)
 
 ##### Install ant:
