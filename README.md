@@ -300,6 +300,7 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 3. Setup preferences.sublime-settings
 ```
 {
+	"show_full_path": true,
 	"auto_close_tags": false,
 	"auto_match_enabled": false,
 	"caret_extra_bottom": 3,
