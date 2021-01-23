@@ -671,7 +671,7 @@ Add to preferences:
 1. Install [Homebrew](https://brew.sh/)
 2. Install ant: brew install ant
 3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
-4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /usr/local/Cellar/ant/1.10.1/libexec/lib
+4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /opt/homebrew/Cellar/ant/1.10.9/libexec/lib
 
 ##### Setup SFDC save:
 1. Install NPM: brew install npm
