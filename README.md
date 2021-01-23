@@ -9,7 +9,7 @@ https://github.com/shabazfarooq/personal-mac-setup/blob/master/README.md#5-hamme
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
 - [Sublime Text](#Sublime-Text)
-- [Sublime Text [SFDC Related]](#Sublime Text [SFDC Related])
+- [Sublime Text [SFDC Related]](#Sublime-Text-[SFDC-Related])
 
 
 
@@ -103,7 +103,7 @@ uncheck:
 
 
 
-## 5. Hammer spoon
+# 5. Hammer spoon #
 1. Download and install
 2. click the taskbar icon and select "open config", add the following code:
 ```
@@ -146,7 +146,7 @@ mousetap:start()
 
 
 
-## BetterTouchTool
+# BetterTouchTool #
 1. In advanced settings, select "Launch BetterTouchTool on startup"
 2. In advanced settings, unselect "Show Menubar icon"
 1. Setup keyboard shortcuts:
@@ -156,7 +156,7 @@ Also, setup fn+max brightness/min brightness if laptop
 
 
 
-## 4. Karabiner Elements
+# Karabiner Elements #
 1. Misc > (uncheck) Show icon in menu bar
 2. Swap command and option (use this if standard option to swap is not working):
 ![](https://github.com/shabazfarooq/personal-mac-setup/blob/master/Karabiner_Simple.png)
@@ -537,7 +537,7 @@ b) Then go to "Complex Modifications" > Add Rule > select enable all for Pok3r
 
 
 
-## Iterm2
+# Iterm2 #
 1. Disable confirm quit: Open Preferences, under "Closing" uncheck all items
 2. Open new tabs in same dir: Open Preferences, Go to Profiles Tab, under "Working Directory" select "Reuse previous sessions directory"
 3. Set colors: Open Preferences, Go to Profiles tab, Select Colors subtab, Set bg: 1e1f29 fg: bfbfbf
@@ -559,7 +559,7 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 
 
-## Sublime Text
+# Sublime Text #
 1. Downoad and install Sublimetext3
 2. Install [Package Control](https://packagecontrol.io/installation)
 3. Setup preferences.sublime-settings
@@ -648,7 +648,7 @@ Add to preferences:
 
 
 
-## Sublime Text [SFDC Related]
+# Sublime Text [SFDC Related] #
 1. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
 2. SFDC Syntax Highlighting: git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
 
