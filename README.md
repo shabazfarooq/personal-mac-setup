@@ -1,7 +1,7 @@
 
 https://github.com/shabazfarooq/personal-mac-setup/blob/master/README.md#5-hammer-spoon
 
-Markup: [heading-1](#Install-Chrome "Goto heading-1")
+Markup: [Install Chrome](#Install-Chrome "Goto heading-1")
 
 
 
