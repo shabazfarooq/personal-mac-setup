@@ -9,7 +9,7 @@
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
 - [Sublime Text](#Sublime-Text)
-- [Sublime Text [SFDC Related]](#SFDC-Dev-Tools)
+- [SFDC Dev Tools](#SFDC-Dev-Tools)
 
 
 
