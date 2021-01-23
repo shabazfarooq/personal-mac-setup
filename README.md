@@ -105,7 +105,8 @@ uncheck:
 
 # Hammerspoon #
 1. Download and install
-2. click the taskbar icon and select "open config", add the following code:
+2. Open app and allow permissions
+2. Click the taskbar icon and select "open config", add the following code:
 ```
 -- HANDLE SCROLLING
 local oldmousepos = {}
