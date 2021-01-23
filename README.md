@@ -4,7 +4,7 @@ https://github.com/shabazfarooq/personal-mac-setup/blob/master/README.md#5-hamme
 - [Install Chrome](#Install-Chrome)
 - [System Preferences](#System-Preferences)
 - [Setup Finder](#Setup-Finder)
-- [Hammer spoon](#Hammer-spoon)
+- [Hammerspoon](#Hammerspoon)
 - [BetterTouchTool](#BetterTouchTool)
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
@@ -103,7 +103,7 @@ uncheck:
 
 
 
-# Hammer spoon #
+# Hammerspoon #
 1. Download and install
 2. click the taskbar icon and select "open config", add the following code:
 ```
