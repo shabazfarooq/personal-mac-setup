@@ -19,14 +19,18 @@ Extensions that will transfer over:
 ## System Preferences
 
 ##### General >
-- "Use dark menu bar and Dock"
+- "Appearance": Dark
+- "Show scroll bars": Always
 - "Default web browser": Chrome
 - "Recent items": 5
 
 ##### Dock >
-"Size": small
-"Automatically hide and show the Dock"
-"Minimize windows into applicaiton icon"
+- "Size": small-ish
+- "Magnification": min-ish
+- "Minimize windows into applicaiton icon"
+- "Automatically hide and show the Dock"
+- uncheck "Show recent applicaitons in Dock"
+
 
 ##### Keyboard >
 "Key Repeat": Fast
