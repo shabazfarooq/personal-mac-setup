@@ -33,16 +33,16 @@ Extensions that will transfer over:
 
 
 ##### Keyboard >
-"Key Repeat": Fast
-"Delay Unil Repeat": Short
-"Modifier keys.." > swap command and option *for usb keyboard*
+- "Key Repeat": Fast
+- "Delay Unil Repeat": Short
+- "Modifier keys.." > swap command and option *for usb keyboard*
 
 ##### Mouse >
-"Tracking speed": Fast
+- "Tracking speed": Fast
 
 ##### Trackpad >
-"Tap to click"
-To Enable Three Finger Drag: Accessibility > Mouse & Trackpad > Trackpad Options... > Enable dragging > three finger drag
+- "Tap to click"
+- To Enable Three Finger Drag: Accessibility > Pointer Control > Trackpad Options... > Enable dragging > three finger drag
 
 
 
