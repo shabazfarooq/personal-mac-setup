@@ -3,6 +3,18 @@ https://github.com/shabazfarooq/personal-mac-setup/blob/master/README.md#5-hamme
 
 - [Install Chrome](#Install-Chrome)
 - [System Preferences](#System-Preferences)
+- [Setup Finder](#Setup-Finder)
+- [Hammer spoon](#Hammer-spoon)
+- [BetterTouchTool](#BetterTouchTool)
+- [Karabiner Elements](#Karabiner-Elements)
+- [Iterm2](#Iterm2)
+- [Sublime Text](#Sublime-Text)
+- [Sublime Text [SFDC Related]](#Sublime Text [SFDC Related])
+
+
+
+
+
 
 
 
@@ -57,7 +69,7 @@ Extensions that will transfer over:
 
 
 
-## Setup Finder
+# Setup Finder #
 ##### General > 
 - new finder window shows: Shabaz
 
