@@ -1,3 +1,8 @@
+
+https://github.com/shabazfarooq/personal-mac-setup/blob/master/README.md#5-hammer-spoon
+
+
+
 ## Install Chrome
 Download and install Chrome.
 Sign in, all extensions available from the chrome app store will automatically install.While non-app store extensions will need to be installed manually
