@@ -70,12 +70,12 @@ uncheck:
 - “show all filename extensions”
 
 ###### Reorder side bar as follows:
-shabaz
-AirDrop
-Applications
-Desktop
-Documents
-Downloads
+- shabaz
+- Applications
+- Desktop
+- Documents
+- Downloads
+- AirDrop
 
 ###### View > Show Path Bar
 
