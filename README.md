@@ -9,7 +9,7 @@
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
 - [Sublime Text](#Sublime-Text)
-- [Sublime Text [SFDC Related]](#Sublime-Text-(SFDC-Related))
+- [Sublime Text [SFDC Related]](#SFDC-Dev-Tools)
 
 
 
@@ -657,7 +657,7 @@ Add to preferences:
 
 
 
-# Sublime Text (SFDC Related) #
+# SFDC Dev Tools #
 1. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
 2. SFDC Syntax Highlighting: git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
 
