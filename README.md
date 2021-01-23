@@ -106,7 +106,8 @@ uncheck:
 # Hammerspoon #
 1. Download and install
 2. Open app and allow permissions
-2. Click the taskbar icon and select "open config", add the following code:
+3. Click the taskbar icon and select "Preferences", and click "Enable Accessibility"
+4. Click the taskbar icon and select "Open Config", add the following code:
 ```
 -- HANDLE SCROLLING
 local oldmousepos = {}
@@ -141,8 +142,11 @@ end)
 
 mousetap:start()
 ```
-3. Click the menu bar icon and select reload config
-4. Click the menu bar icon and select: Preferences, deselect "Show Dock Icon", deselect "Show Menu Icon", and select "startup at login" if not already selected
+5. Click the taskbar icon and select reload config
+6. Click the taskbar icon and select "Preferences":
+-- deselect "Show Dock Icon"
+-- deselect "Show Menu Icon"
+-- select "startup at login" if not already selected
 
 
 
