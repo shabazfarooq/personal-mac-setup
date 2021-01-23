@@ -144,9 +144,9 @@ mousetap:start()
 ```
 5. Click the taskbar icon and select reload config
 6. Click the taskbar icon and select "Preferences":
--- deselect "Show Dock Icon"
--- deselect "Show Menu Icon"
--- select "startup at login" if not already selected
+- deselect "Show Dock Icon"
+- deselect "Show Menu Icon"
+- select "startup at login" if not already selected
 
 
 
