@@ -103,7 +103,7 @@ uncheck:
 
 
 
-# 5. Hammer spoon #
+# Hammer spoon #
 1. Download and install
 2. click the taskbar icon and select "open config", add the following code:
 ```
