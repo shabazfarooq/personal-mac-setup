@@ -152,8 +152,9 @@ mousetap:start()
 
 
 # BetterTouchTool #
-1. In advanced settings, select "Launch BetterTouchTool on startup"
-2. In advanced settings, unselect "Show Menubar icon"
+1. Download and install BetterTouchTool
+1. Settings > Basic: select "Launch BetterTouchTool on startup"
+2. Settings > User Interface: unselect "Show Menubar icon"
 1. Setup keyboard shortcuts:
 ![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BTT_KB.png "")
 Also, setup fn+max brightness/min brightness if laptop
