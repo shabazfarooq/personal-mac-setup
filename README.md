@@ -19,9 +19,9 @@ Extensions that will transfer over:
 ## System Preferences
 
 ##### General >
-"Use dark menu bar and Dock"
-"Default web browser": Chrome
-"Recent items": 5
+- "Use dark menu bar and Dock"
+- "Default web browser": Chrome
+- "Recent items": 5
 
 ##### Dock >
 "Size": small
