@@ -72,9 +72,9 @@ uncheck:
 ##### Reorder side bar as follows:
 - shabaz
 - Applications
+- Downloads
 - Desktop
 - Documents
-- Downloads
 - AirDrop
 
 ##### View > Show Path Bar
