@@ -6,7 +6,7 @@ Markup: [heading-1](#Install-Chrome "Goto heading-1")
 
 
 
-#Install Chrome
+# Install Chrome #
 Download and install Chrome.
 Sign in, all extensions available from the chrome app store will automatically install.While non-app store extensions will need to be installed manually
 
