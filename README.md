@@ -1,8 +1,9 @@
 
 https://github.com/shabazfarooq/personal-mac-setup/blob/master/README.md#5-hammer-spoon
 
-Markup: [Install Chrome](#Install-Chrome)
-# System Preferences #
+[Install Chrome](#Install-Chrome)
+[System Preferences](#System-Preferences)
+
 
 
 
