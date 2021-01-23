@@ -69,7 +69,7 @@ uncheck:
 ###### Advanced >
 - “show all filename extensions”
 
-##### Reorder side bar as follows:
+###### Reorder side bar as follows:
 shabaz
 AirDrop
 Applications
@@ -77,6 +77,7 @@ Desktop
 Documents
 Downloads
 
+###### View > Show Path Bar
 
 
 
