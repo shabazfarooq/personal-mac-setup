@@ -166,8 +166,8 @@ Also, setup fn+max brightness/min brightness if laptop
 2. Open Karabiner-Elements and go to Misc tab > (uncheck) Show icon in menu bar
 3. (For External Keyboards) Swap command and option (use this if standard option to swap is not working):
 ![](https://github.com/shabazfarooq/personal-mac-setup/blob/master/Karabiner_Simple.png)
-4 Create JSON file with code below to add arrow keys: .config/karabiner/assets/complex_modifications/arrows.json
-5 Then go to "Complex Modifications" > Add Rule > select
+4. Create JSON file with code below to add arrow keys: .config/karabiner/assets/complex_modifications/arrows.json
+5. Then go to "Complex Modifications" > Add Rule > select
 - "Right Command + IJKL arrows"
 - "Right Command + u/o to pageup/pagedown"
 ```
