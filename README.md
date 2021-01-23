@@ -546,14 +546,15 @@ mousetap:start()
 
 
 # Iterm2 #
-1. Disable confirm quit: Open Preferences, under "Closing" uncheck all items
-2. Open new tabs in same dir: Open Preferences, Go to Profiles Tab, under "Working Directory" select "Reuse previous sessions directory"
-3. Set colors: Open Preferences, Go to Profiles tab, Select Colors subtab, Set bg: 1e1f29 fg: bfbfbf
-5. Set font: Open Preferences, go to Profiles tab, select Text subtab, select "Change Font" and set to 15
-4. Setup move tabs shortcut: Open preferences, go to Keys tab, set: Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
-
-6. Always show tab bar: Open Preferences, go to Apperance tab, select "Show tab bar even when there is only one tab"
-7. Edit/Create .bash_profile (if it doesn't work, create .bashrc)
+1. Download and install Iterm 2
+2. Disable confirm quit: Preferences > General > Closing: uncheck all items
+3. Open new tabs in same dir: Preferences > Profile > General: Working Directory: "Reuse previous sessions directory"
+4. Set colors: Preferences > Profile > Colors: Set bg: 1e1f29 fg: bfbfbf
+5. Set font: Preferences > Profile > Text: Set font size to 15
+6. Setup move tabs shortcut: Preferences > Keys: Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
+7. Always show tab bar: Preferences > Apperance: select "Show tab bar even when there is only one tab"
+8. Dont stretch tab bars: Preferences > Apperance: unselect "Stetch tabs to fill bar"
+8. Edit/Create .bash_profile (if it doesn't work, create .bashrc)
 ```
 export PS1="\u: \w > "
 export CLICOLOR=1
