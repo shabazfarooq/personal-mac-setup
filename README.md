@@ -48,30 +48,28 @@ Extensions that will transfer over:
 
 
 ## Setup Finder
-General > 
-new finder window shows: Shabaz
+##### General > 
+- new finder window shows: Shabaz
 
-Tags >
-unselect all
+##### Tags >
+- unselect all
 
-Sidebar >
-check:
-Applications
-Desktop
-Documents
-Downloads
-shabaz
+##### Sidebar >
+check: 
+- Applications
+- Desktop
+- Documents
+- Downloads
+- shabaz
 
 uncheck:
-recents
-airdrop
-recent tags
+- recents
+- recent tags
 
+###### Advanced >
+- “show all filename extensions”
 
-Advanced >
-“show all filename extensions”
-
-Reorder side bar as follows:
+##### Reorder side bar as follows:
 shabaz
 AirDrop
 Applications
