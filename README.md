@@ -66,10 +66,10 @@ uncheck:
 - recents
 - recent tags
 
-###### Advanced >
+##### Advanced >
 - “show all filename extensions”
 
-###### Reorder side bar as follows:
+##### Reorder side bar as follows:
 - shabaz
 - Applications
 - Desktop
@@ -77,7 +77,7 @@ uncheck:
 - Downloads
 - AirDrop
 
-###### View > Show Path Bar
+##### View > Show Path Bar
 
 
 
