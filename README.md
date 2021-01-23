@@ -31,7 +31,6 @@ Extensions that will transfer over:
 - "Automatically hide and show the Dock"
 - uncheck "Show recent applicaitons in Dock"
 
-
 ##### Keyboard >
 - "Key Repeat": Fast
 - "Delay Unil Repeat": Short
@@ -59,15 +58,14 @@ Sidebar >
 check:
 Applications
 Desktop
+Documents
 Downloads
 shabaz
 
 uncheck:
 recents
-icloud drive
 airdrop
-uncheck recent tags
-Documents
+recent tags
 
 
 Advanced >
@@ -75,8 +73,10 @@ Advanced >
 
 Reorder side bar as follows:
 shabaz
+AirDrop
 Applications
 Desktop
+Documents
 Downloads
 
 
