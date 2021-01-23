@@ -554,9 +554,9 @@ mousetap:start()
 6. Setup move tabs shortcut: Preferences > Keys: Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
 7. Always show tab bar: Preferences > Apperance: select "Show tab bar even when there is only one tab"
 8. Dont stretch tab bars: Preferences > Apperance: unselect "Stetch tabs to fill bar"
-8. Edit/Create .bash_profile (if it doesn't work, create .bashrc)
+8. Edit/Create .zshrc (if it doesn't work, create .bashrc or .bash_profile)
 ```
-export PS1="\u: \w > "
+export PS1="%n: %~ > "
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -n"
