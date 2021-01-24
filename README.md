@@ -683,7 +683,7 @@ sudo chown -R $(whoami) /usr/local/bin
 
 
 ##### Install force-cli:
-2. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
+1. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
 (chmod +x the force file, copy it to force-original as well)
 
 
