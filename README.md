@@ -699,4 +699,4 @@ sudo chown -R $(whoami) /usr/local/bin
 ```
 ##### Sublime SFDC Syntax Highlighting:
 1. git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
-
+2. Open a .cls and .pages file in Sublime, and on the bottom right select syntax, then select "Open all with current selection as..." and select SFDC-Syntax > Apex/VisualForce
