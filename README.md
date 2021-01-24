@@ -682,8 +682,13 @@ sudo chown -R $(whoami) /usr/local/bin
 
 
 
+##### Install force-cli:
+1. Install [force-cli](https://force-cli.herokuapp.com/)
+
 ##### Install fforce:
-1. Install [Homebrew](https://brew.sh/)
+*************ADD GIT LINK HERE****************
+
+
 
 
 
