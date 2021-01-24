@@ -9,7 +9,7 @@
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
 - [Sublime Text](#Sublime-Text)
-- [Setup /usr/local/bin Folder](#Setup-/usr/local/bin-Folder)
+- [Setup Binary Folder](#Setup-Binary-Folder)
 - [SFDC Dev Tools](#SFDC-Dev-Tools)
 
 
@@ -664,7 +664,7 @@ Add to preferences:
 
 
 
-# Setup /usr/local/bin Folder #
+# Setup Binary Folder #
 ```
 mkdir /usr/local/bin
 sudo chown -R $(whoami) /usr/local/bin
