@@ -671,8 +671,12 @@ sudo chown -R $(whoami) /usr/local/bin
 ```
 
 
-# SFDC Dev Tools #
 
+
+
+
+
+# SFDC Dev Tools #
 
 ##### Install ant:
 1. Install [Homebrew](https://brew.sh/)
@@ -680,39 +684,19 @@ sudo chown -R $(whoami) /usr/local/bin
 3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
 4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /opt/homebrew/Cellar/ant/1.10.9/libexec/lib
 
-
-
 ##### Install force-cli:
 1. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
 (chmod +x the force file, copy it to force-original as well)
 
-
-
 ##### Install fforce:
-1) 1. git clone [fforce](https://github.com/shabazfarooq/fforce-go) to /usr/local/bin
-2) Sublime Text > Tools > Build System > New Build System (Save file as "fforce")
+1. git clone [fforce](https://github.com/shabazfarooq/fforce-go) to /usr/local/bin
+2. Sublime Text > Tools > Build System > New Build System (Save file as "fforce")
 ```
 {
   "cmd": ["fforce build $folder $file $file_extension"],
   "shell": true
 }
 ```
-
-
-
-----------
-
-
-2. SFDC Syntax Highlighting: git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
-
-
-
-
-
-
-
-
-
-
-
+##### Sublime SFDC Syntax Highlighting:
+1. git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
 
