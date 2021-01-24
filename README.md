@@ -9,6 +9,7 @@
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
 - [Sublime Text](#Sublime-Text)
+- [Setup /usr/local/bin Folder](#Setup-/usr/local/bin-Folder)
 - [SFDC Dev Tools](#SFDC-Dev-Tools)
 
 
@@ -657,7 +658,36 @@ Add to preferences:
 
 
 
+
+
+
+
+
+
+# Setup /usr/local/bin Folder #
+```
+mkdir /usr/local/bin
+sudo chown -R $(whoami) /usr/local/bin
+```
+
+
 # SFDC Dev Tools #
+
+
+##### Install ant:
+1. Install [Homebrew](https://brew.sh/)
+2. Install ant: brew install ant
+3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
+4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /opt/homebrew/Cellar/ant/1.10.9/libexec/lib
+
+
+
+##### Install fforce:
+1. Install [Homebrew](https://brew.sh/)
+
+
+
+
 1. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
 2. SFDC Syntax Highlighting: git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
 
@@ -667,11 +697,6 @@ Add to preferences:
 2. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
 (chmod +x the force file, copy it to force-original as well)
 
-##### Install ant:
-1. Install [Homebrew](https://brew.sh/)
-2. Install ant: brew install ant
-3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
-4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /opt/homebrew/Cellar/ant/1.10.9/libexec/lib
 
 ##### Setup SFDC save:
 1. Install NPM: brew install npm
