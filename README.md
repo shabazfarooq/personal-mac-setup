@@ -689,33 +689,24 @@ sudo chown -R $(whoami) /usr/local/bin
 
 
 ##### Install fforce:
-tbd add git link here
+1) 1. git clone [fforce](https://github.com/shabazfarooq/fforce-go) to /usr/local/bin
+2) Sublime Text > Tools > Build System > New Build System (Save file as "fforce")
+```
+{
+  "cmd": ["fforce build $folder $file $file_extension"],
+  "shell": true
+}
+```
 
 
 
 ----------
 
 
-1. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
 2. SFDC Syntax Highlighting: git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
 
-##### Salesforce tools (not directly sublime related)
-1. Install [create-force-login](https://github.com/shabazfarooq/force-login-setup) to /usr/local/bin
-(this contains build.xml and package.xml, add them to the parent sfdc-directory)
 
 
-##### Setup SFDC save:
-1. Install NPM: brew install npm
-2. Install [Force-Faster-Save](https://github.com/shabazfarooq/Force-Faster-Save) to ~/node-workspace/ then npm install in folder
-3. Create new build system in sublime for sfdc:
-create file and add: ~/Library/Application Support/Sublime Text 3/Packages/User/Force-Faster-Save.sublime-build
-Then for SFDC files set it to use this build system (tools>build..)
-```
-{
-  "cmd": ["~/node-workspace/Force-Faster-Save/main.js ${file}"],
-  "shell": true
-}
-```
 
 
 
