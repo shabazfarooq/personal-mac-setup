@@ -683,14 +683,17 @@ sudo chown -R $(whoami) /usr/local/bin
 
 
 ##### Install force-cli:
-1. Install [force-cli](https://force-cli.herokuapp.com/)
+2. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
+(chmod +x the force file, copy it to force-original as well)
+
+
 
 ##### Install fforce:
-*************ADD GIT LINK HERE****************
+tbd add git link here
 
 
 
-
+----------
 
 
 1. git clone [Force-Actions](https://github.com/shabazfarooq/Force-Actions) to  ~/Library/Application Support/Sublime Text 3/Packages
@@ -699,8 +702,6 @@ sudo chown -R $(whoami) /usr/local/bin
 ##### Salesforce tools (not directly sublime related)
 1. Install [create-force-login](https://github.com/shabazfarooq/force-login-setup) to /usr/local/bin
 (this contains build.xml and package.xml, add them to the parent sfdc-directory)
-2. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
-(chmod +x the force file, copy it to force-original as well)
 
 
 ##### Setup SFDC save:
