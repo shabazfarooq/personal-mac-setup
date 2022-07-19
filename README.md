@@ -686,7 +686,7 @@ sudo chown -R $(whoami) /usr/local/bin
 
 ##### Install force-cli:
 1. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
-(chmod +x the force file, copy it to force-original as well)
+(chmod +x the force file)
 
 ##### Install fforce:
 1. git clone [fforce](https://github.com/shabazfarooq/fforce-go) to /usr/local/bin
