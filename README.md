@@ -11,6 +11,7 @@
 - [Sublime Text](#Sublime-Text)
 - [Setup Binary Folder](#Setup-Binary-Folder)
 - [SFDC Dev Tools](#SFDC-Dev-Tools)
+- [Obsidian](#Obsidian)
 
 
 
@@ -700,3 +701,97 @@ sudo chown -R $(whoami) /usr/local/bin
 ##### Sublime SFDC Syntax Highlighting:
 1. git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
 2. Open a .cls and .pages file in Sublime, and on the bottom right select syntax, then select "Open all with current selection as..." and select SFDC-Syntax > Apex/VisualForce
+
+
+
+
+# Obsidian #
+```
+:root {
+  --green2: #37b6b4;
+  --blue2: #61afee;
+  --red2: #f17171;
+  --yellow2: #ffc64c;
+  --orange2: #fe8545;
+  --purple2: #9d8dff;
+
+  --active-file-color: #008cff;
+}
+
+body {
+  --nav-item-color: #A0A0A0 !important;
+  --nav-item-color: #DDD !important;
+  --nav-item-background-active: #00000021 !important;
+  --nav-item-padding: 5px;
+  --nav-item-color-active: var(--active-file-color) !important;
+
+  --inline-title-color: var(--active-file-color);
+  --tab-text-color-focused-active-current: var(--active-file-color) !important;
+
+  --inline-title-size: 23px;
+
+  --h1-color: var(--red2);
+  --h2-color: var(--red2);
+  --h3-color: var(--red2);
+  --h4-color: var(--red2);
+  --h5-color: var(--red2);
+  --h6-color: var(--red2);
+
+  --h1-weight: 500;
+  --h2-weight: 500;
+  --h3-weight: 500;
+  --h4-weight: 500;
+  --h5-weight: 500;
+  --h6-weight: 500;
+
+  --bold-weight: 500;
+  --bold-color: var(--purple2);
+  --list-spacing: 5px;
+
+  --nav-collapse-icon-color: #999;
+  --nav-item-size: 14px;
+}
+
+
+/* Heading styling */
+.mod-cm6 .cm-editor .HyperMD-header, 
+.markdown-reading-view .markdown-preview-section :is(h1,h2,h3,h4,h5,h6) {
+  padding-top: 30px !important;
+}
+
+
+/* Nav Vault Title */
+.nav-folder-title-content:first-of-type {
+  color: #555;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  
+  display: block;
+  width: 100%;
+  border-bottom: 1px dotted #FFFFFF20;
+}
+
+
+/* Nav Folder Colors */
+.nav-folder-title-content {
+  font-weight: 500;
+}
+
+
+/* Table Styling */
+th, td {
+  padding: 17px !important;
+}
+
+th {  
+  color: var(--green2) !important;
+  background-color: #00000033 !important;
+}
+
+tr:nth-child(even) {
+  background-color: Lightgreen !important;
+  background-color: #FFFFFF09 !important;
+}
+
+```
