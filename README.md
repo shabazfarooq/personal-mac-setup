@@ -719,8 +719,8 @@ tr:nth-child(even) {
 
 **Set Hotkeys**
 - Toggle checkbox status: blank
-- Toggle bold: blank
-- Set as heading 5: cmd+j
+- Code Editor Shortcuts: Join Lines: blank
+- Set as heading 5: cmd+shift+b
 - Quick Switcher++: Open in standard mode: cmd+p
 - Move line up: cmd+ctrl+up
 - Move line down: cmd+ctrl+down
@@ -732,7 +732,6 @@ tr:nth-child(even) {
 - Advanced new file: Create note in new tab: cmd+option+n
 
 
-
 **Chorded hotkeys**
 add cord: 
 ```
@@ -740,16 +739,8 @@ add cord:
 
 ```
 
-
-
-
-
-
 **Sequence Hotkeys**
-- Toggle bold: cmd+b cmd+b
 - Toggle left sidebar: cmd+k cmd+j
-
-
 
 
 **File Color**
