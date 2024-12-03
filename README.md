@@ -595,8 +595,7 @@ App Store > (Bottom Left) click Shabaz Farooq >
    	
 
 # Homebrew #
-1. Terminal > xcode-select --install
-2. Install [Homebrew](https://brew.sh/)
+1. Install [Homebrew](https://brew.sh/)
 
 # Obsidian #
 1. Install Obsidian
