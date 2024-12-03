@@ -7,8 +7,8 @@
 - [Hammerspoon](#Hammerspoon)
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
-- [Homebrew](#Homebrew)
 - [App Store Apps](#AppStoreApps)
+- [Homebrew](#Homebrew)
 - [Obsidian](#Obsidian)
 
 
@@ -576,17 +576,18 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # AppStoreApps #
 
-1. App Store > (Bottom Left) click Shabaz Farooq >
-	1.  Capslocker
-		- Dock Icon > Preferences:
-		- check: Start at Login
-		- uncheck: Use colored CapsLock status icon
-		- check: reverse colors
-  	2. Magnet
-      	3. Xcode
-	4. Numbers
- 	5. Pages
-  	6. Keynote
+App Store > (Bottom Left) click Shabaz Farooq >
+
+1.  Capslocker
+	- Dock Icon > Preferences:
+	- check: Start at Login
+	- uncheck: Use colored CapsLock status icon
+	- check: reverse colors
+2. Magnet
+3. Xcode
+4. Numbers
+5. Pages
+6. Keynote
    	
 
 # Homebrew #
