@@ -5,6 +5,7 @@
 - [System Preferences](#System-Preferences)
 - [Setup Finder](#Setup-Finder)
 - [Hammerspoon](#Hammerspoon)
+- [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
 - [App Store Apps](#AppStoreApps)
 - [Homebrew](#Homebrew)
@@ -12,10 +13,9 @@
 
 ---
 
-- [Karabiner Elements](#Karabiner-Elements)
-- [Setup Binary Folder](#Setup-Binary-Folder)
-- [Sublime Text](#Sublime-Text)
 - [BetterTouchTool](#BetterTouchTool)
+- [Sublime Text](#Sublime-Text)
+- [Setup Binary Folder](#Setup-Binary-Folder)
 - [SFDC Dev Tools](#SFDC-Dev-Tools)
 
 
