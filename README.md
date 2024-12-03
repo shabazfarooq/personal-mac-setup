@@ -602,13 +602,12 @@ App Store > (Bottom Left) click Shabaz Farooq >
 2. Configure settings:
 
 
-**Options -> Editor**
+**Editor**
 - *Disable* readable line length
-- *Disable* show frontmatter
 - *Enable* Spellcheck
-- Tab indent size = 4
+- Tab indent size = 2
 
-**Options -> File Links**
+**File Links**
 - Default location for new notes: same folder as current file
 
 **Appearance**
