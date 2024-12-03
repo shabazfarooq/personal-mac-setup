@@ -8,6 +8,7 @@
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
 - [App Store Apps](#AppStoreApps)
+- [MonitorControl](#MonitorControl)
 - [Homebrew](#Homebrew)
 - [Obsidian](#Obsidian)
 
@@ -592,7 +593,10 @@ App Store > (Bottom Left) click Shabaz Farooq >
 5. Numbers
 6. Pages
 7. Keynote
-   	
+
+# MonitorControl #
+1. Install [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)
+2. Open and enable permissions
 
 # Homebrew #
 1. Install [Homebrew](https://brew.sh/)
