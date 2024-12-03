@@ -144,6 +144,7 @@ mousetap:start()
 5. Click the taskbar icon and select reload config
 6. Click the taskbar icon and select "Preferences":
 - deselect "Show Dock Icon"
+- deselect "Show Menu Icon"
 - select "Launch Hammerspoon at Login" if not already selected
 
 
