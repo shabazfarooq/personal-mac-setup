@@ -584,10 +584,17 @@ App Store > (Bottom Left) click Shabaz Farooq >
 	- uncheck: Use colored CapsLock status icon
 	- check: reverse colors
 2. Magnet
-3. Xcode
-4. Numbers
-5. Pages
-6. Keynote
+	- Dock Icon > Preferences:
+ 	- check: Synchronize settings via iCloud
+  	- check: Add Mgnet to login items
+   	- Commands >
+   	- Left: ^2
+   	- Right: ^3
+   	- Maximize: ^0
+4. Xcode
+5. Numbers
+6. Pages
+7. Keynote
    	
 
 # Homebrew #
