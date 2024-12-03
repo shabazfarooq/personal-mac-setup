@@ -5,16 +5,17 @@
 - [System Preferences](#System-Preferences)
 - [Setup Finder](#Setup-Finder)
 - [Hammerspoon](#Hammerspoon)
-- [BetterTouchTool](#BetterTouchTool)
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
-- [Sublime Text](#Sublime-Text)
-- [Setup Binary Folder](#Setup-Binary-Folder)
-- [SFDC Dev Tools](#SFDC-Dev-Tools)
+- [Homebrew](#Homebrew)
 - [Obsidian](#Obsidian)
 
 
 
+- [Setup Binary Folder](#Setup-Binary-Folder)
+- [Sublime Text](#Sublime-Text)
+- [BetterTouchTool](#BetterTouchTool)
+- [SFDC Dev Tools](#SFDC-Dev-Tools)
 
 
 
@@ -571,142 +572,8 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 ```
 
 
-
-
-# Sublime Text #
-1. Downoad and install Sublimetext3
-2. Install [Package Control](https://packagecontrol.io/installation)
-3. Setup preferences.sublime-settings
-```
-{
-	"show_full_path": true,
-	"auto_close_tags": false,
-	"auto_match_enabled": false,
-	"caret_extra_bottom": 3,
-	"caret_extra_top": 3,
-	"caret_extra_width": 2,
-	"draw_white_space": "all",
-	"file_exclude_patterns":
-	[
-		"*meta.xml",
-		"*sublime*"
-	],
-	"folder_exclude_patterns":
-	[
-		".svn"
-	],
-	"font_size": 16,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"ignored_words":
-	[
-		"Accessor",
-		"callout",
-		"picklist"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"preview_on_click": false,
-	"rulers":
-	[
-		80,
-		100
-	],
-	"spell_check": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true
-}
-
-```
-
-##### Install Plugins: Package Control: Install Package >
-1. "Agila theme"
-Add to preferences:
-```
-	"theme": "Agila.sublime-theme",
-  	"color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
-	"theme_agila_sidebar_small": true
-
-```
-2. "Clipboard Diff"
-3. "Pretty JSON"
-4. Install MoveTab, then Setup keyboard shortcuts, click "Sublime Text", "Preferences", "Key Bindings":
-```
-[
-  {
-    "keys": [
-      "ctrl+shift+pageup"
-    ],
-    "command": "move_tab",
-    "args": {
-      "position": "-1"
-    }
-  },
-  {
-    "keys": [
-      "ctrl+shift+pagedown"
-    ],
-    "command": "move_tab",
-    "args": {
-      "position": "+1"
-    }
-  }
-]
-```
-
-
-
-
-
-
-
-
-
-# Setup Binary Folder #
-```
-mkdir /usr/local/bin
-sudo chown -R $(whoami) /usr/local/bin
-```
-
-
-
-
-
-
-
-# SFDC Dev Tools #
-
-##### Install ant:
+# Homebrew #
 1. Install [Homebrew](https://brew.sh/)
-2. Install ant: brew install ant
-3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
-4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /opt/homebrew/Cellar/ant/1.10.9/libexec/lib
-
-##### Install force-cli:
-1. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
-(chmod +x the force file)
-
-##### Install fforce:
-1. git clone [fforce](https://github.com/shabazfarooq/fforce-go) to /usr/local/bin
-2. Sublime Text > Tools > Build System > New Build System (Save file as "fforce")
-```
-{
-  "cmd": ["fforce build $folder $file $file_extension"],
-  "shell": true
-}
-```
-##### Sublime SFDC Syntax Highlighting:
-1. git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
-2. Open a .cls and .pages file in Sublime, and on the bottom right select syntax, then select "Open all with current selection as..." and select SFDC-Syntax > Apex/VisualForce
-
-
-
 
 # Obsidian #
 1. Install Obsidian
@@ -867,3 +734,162 @@ tr:nth-child(even) {
 }
 
 ```
+
+
+
+
+
+
+
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+
+
+
+
+
+
+
+
+
+
+
+
+# Sublime Text #
+1. Downoad and install Sublimetext3
+2. Install [Package Control](https://packagecontrol.io/installation)
+3. Setup preferences.sublime-settings
+```
+{
+	"show_full_path": true,
+	"auto_close_tags": false,
+	"auto_match_enabled": false,
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 3,
+	"caret_extra_width": 2,
+	"draw_white_space": "all",
+	"file_exclude_patterns":
+	[
+		"*meta.xml",
+		"*sublime*"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn"
+	],
+	"font_size": 16,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"Accessor",
+		"callout",
+		"picklist"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"preview_on_click": false,
+	"rulers":
+	[
+		80,
+		100
+	],
+	"spell_check": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
+}
+
+```
+
+##### Install Plugins: Package Control: Install Package >
+1. "Agila theme"
+Add to preferences:
+```
+	"theme": "Agila.sublime-theme",
+  	"color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
+	"theme_agila_sidebar_small": true
+
+```
+2. "Clipboard Diff"
+3. "Pretty JSON"
+4. Install MoveTab, then Setup keyboard shortcuts, click "Sublime Text", "Preferences", "Key Bindings":
+```
+[
+  {
+    "keys": [
+      "ctrl+shift+pageup"
+    ],
+    "command": "move_tab",
+    "args": {
+      "position": "-1"
+    }
+  },
+  {
+    "keys": [
+      "ctrl+shift+pagedown"
+    ],
+    "command": "move_tab",
+    "args": {
+      "position": "+1"
+    }
+  }
+]
+```
+
+
+
+
+
+
+
+
+
+# Setup Binary Folder #
+```
+mkdir /usr/local/bin
+sudo chown -R $(whoami) /usr/local/bin
+```
+
+
+
+
+
+
+
+# SFDC Dev Tools #
+
+##### Install ant:
+1. Install [Homebrew](https://brew.sh/)
+2. Install ant: brew install ant
+3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
+4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /opt/homebrew/Cellar/ant/1.10.9/libexec/lib
+
+##### Install force-cli:
+1. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
+(chmod +x the force file)
+
+##### Install fforce:
+1. git clone [fforce](https://github.com/shabazfarooq/fforce-go) to /usr/local/bin
+2. Sublime Text > Tools > Build System > New Build System (Save file as "fforce")
+```
+{
+  "cmd": ["fforce build $folder $file $file_extension"],
+  "shell": true
+}
+```
+##### Sublime SFDC Syntax Highlighting:
+1. git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
+2. Open a .cls and .pages file in Sublime, and on the bottom right select syntax, then select "Open all with current selection as..." and select SFDC-Syntax > Apex/VisualForce
+
+
