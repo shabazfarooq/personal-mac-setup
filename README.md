@@ -557,8 +557,11 @@ mousetap:start()
 	- Profile > Default > General >
  		- (Open new tabs in same dir) Working Directory: "Reuse previous sessions directory"
 	- Keys > Key Bindings >
- 		- (Setup move tabs shortcut) Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
-	- Apperance > Tabs >
+ 		- Move Tab Right: CTRL+SHIFT+PAGE UP
+   		- Move Tab Left: CTRL+SHIFT+PAGE DOWN
+		- Previous Tab: CMD+OPTION+LEFT
+  		- Next Tab: CMD+OPTION+RIGHT
+ 	- Apperance > Tabs >
  		- (Always show tab bar) select "Show tab bar even when there is only one tab"
 		- (Dont stretch tab bars) unselect "Stetch tabs to fill bar"
 3. Edit/Create .zshrc (if it doesn't work, create .bashrc or .bash_profile)
@@ -598,7 +601,8 @@ App Store > (Bottom Left) click Shabaz Farooq >
    	
 
 # Homebrew #
-1. Install [Homebrew](https://brew.sh/)
+1. Terminal > xcode-select --install
+2. Install [Homebrew](https://brew.sh/)
 
 # Obsidian #
 1. Install Obsidian
