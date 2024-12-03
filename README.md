@@ -162,13 +162,16 @@ mousetap:start()
 
 # Karabiner Elements #
 1. Download and install
-2. Open Karabiner-Elements and go to Misc tab > (uncheck) Show icon in menu bar
-3. (For External Keyboards) Swap command and option (use this if standard option to swap is not working):
-![](https://github.com/shabazfarooq/personal-mac-setup/blob/master/Karabiner_Simple.png)
-4. Create JSON file with code below to add arrow keys: .config/karabiner/assets/complex_modifications/arrows.json
-5. Then go to "Complex Modifications" > Add Rule > select
-- "Right Command + IJKL arrows"
-- "Right Command + u/o to pageup/pagedown"
+2. Open Karabiner-Elements and go to UI tab > (uncheck) Show icon in menu bar
+3. Noridic Mouse Swap:
+	- Devices tab > enable (Note: Mouse icon) 2.4G Wireless receiver (Nordic)
+	- Simple Modifications > (Note: Mouse icon) 2.4G Wireless receiver (Nordic):
+ 	- mouse button2 to mouse button4
+	- mouse button4 to mouse button2
+6. Create JSON file with code below to add arrow keys: .config/karabiner/assets/complex_modifications/arrows.json
+7. Then go to "Complex Modifications" > Add predfined rule > select
+	- "Right Command + IJKL arrows"
+	- "Right Command + u/o to pageup/pagedown"
 ```
 {
   "title": "Right Command + IJKL arrows",
