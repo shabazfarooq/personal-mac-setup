@@ -664,7 +664,7 @@ add cord:
 
 **Sequence Hotkeys**
 - Toggle bold: cmd+b cmd+b
-- Toggle left sidebar: cmd+k cmd+b
+- Toggle left sidebar: cmd+k cmd+j
 
 ```
 :root {
