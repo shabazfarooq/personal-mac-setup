@@ -8,6 +8,7 @@
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
 - [Homebrew](#Homebrew)
+- [App Store Apps](#AppStoreApps)
 - [Obsidian](#Obsidian)
 
 
@@ -574,6 +575,16 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # Homebrew #
 1. Install [Homebrew](https://brew.sh/)
+
+# AppStoreApps #
+
+1. App Store > (Bottom Left) click Shabaz Farooq >
+	1.  Capslocker
+ 		- Dock Icon > Preferences:
+   			- check: Start at Login
+	   		- uncheck: Use colored CapsLock status icon
+      			- check: Reverse colors
+
 
 # Obsidian #
 1. Install Obsidian
