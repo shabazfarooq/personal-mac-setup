@@ -5,14 +5,14 @@
 - [System Preferences](#System-Preferences)
 - [Setup Finder](#Setup-Finder)
 - [Hammerspoon](#Hammerspoon)
-- [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
 - [App Store Apps](#AppStoreApps)
 - [Homebrew](#Homebrew)
 - [Obsidian](#Obsidian)
 
+---
 
-
+- [Karabiner Elements](#Karabiner-Elements)
 - [Setup Binary Folder](#Setup-Binary-Folder)
 - [Sublime Text](#Sublime-Text)
 - [BetterTouchTool](#BetterTouchTool)
@@ -152,12 +152,6 @@ mousetap:start()
 
 
 
-# BetterTouchTool #
-1. Download and install BetterTouchTool
-1. Settings > Basic: select "Launch BetterTouchTool on startup"
-2. Settings > User Interface: unselect "Show Menubar icon"
-1. Setup keyboard shortcuts:
-![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BTT_KB2.png "")
 
 
 
@@ -593,7 +587,7 @@ App Store > (Bottom Left) click Shabaz Farooq >
    	- Commands >
    	- Left: ^2
    	- Right: ^3
-   	- Maximize: ^0
+   	- Maximize: ^1
 4. Xcode
 5. Numbers
 6. Pages
@@ -769,17 +763,23 @@ tr:nth-child(even) {
 
 
 
+---
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+---
 
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
 
-
-
+# BetterTouchTool #
+1. Download and install BetterTouchTool
+1. Settings > Basic: select "Launch BetterTouchTool on startup"
+2. Settings > User Interface: unselect "Show Menubar icon"
+1. Setup keyboard shortcuts:
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BTT_KB2.png "")
 
 
 
