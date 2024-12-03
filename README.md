@@ -41,13 +41,12 @@ Extensions that will transfer over:
 
 # System Preferences #
 
-##### General >
+##### Appearance >
 - "Appearance": Dark
 - "Show scroll bars": Always
-- "Default web browser": Chrome
-- "Recent items": 5
 
-##### Dock >
+##### Desktop & Dock >
+- "Default web browser": Chrome
 - "Size": small-ish
 - "Magnification": min-ish
 - "Minimize windows into applicaiton icon"
@@ -57,14 +56,13 @@ Extensions that will transfer over:
 ##### Keyboard >
 - "Key Repeat": Fast
 - "Delay Unil Repeat": Short
-- "Modifier keys.." > swap command and option *for usb keyboard*
 
 ##### Mouse >
-- "Tracking speed": Fast
+- "Tracking speed": adjust to preference
 
 ##### Trackpad >
 - "Tap to click"
-- To Enable Three Finger Drag: Accessibility > Pointer Control > Trackpad Options... > Enable dragging > three finger drag
+- To Enable Three Finger Drag: Accessibility > Pointer Control > Trackpad Options... > Enable "User trackpad for dragging" > three finger drag
 
 
 
