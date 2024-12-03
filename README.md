@@ -599,73 +599,8 @@ App Store > (Bottom Left) click Shabaz Farooq >
 
 # Obsidian #
 1. Install Obsidian
-2. Configure settings:
 
-
-**Editor**
-- *Disable* readable line length
-- *Enable* Spellcheck
-- Tab indent size = 2
-
-**File Links**
-- Default location for new notes: same folder as current file
-
-**Appearance**
-- accent color: #4C79CD
-- theme: Atom (install)
-- enable and add snippetcss from git
-- disable Show title bar
-
-**Install community plugins:**
-- Quick Switcher++
-- Pane Relief
-- Code Editor Shortcuts
-- File Color
-- Advanced New File
-- Open In New Tab
-- Sequence Hotkeys
-- Chorded Hotkeys
-
-**Set Hotkeys**
-- Toggle checkbox status: blank
-- Toggle bold: blank
-- Set as heading 5: cmd+j
-- Quick Switcher++: Open in standard mode: cmd+p
-- Move line up: cmd+ctrl+up
-- Move line down: cmd+ctrl+down
-- Insert markdown link: blank
-- Graph view: Open graph view: blank
-- Delete paragraph: blank
-- Delete current file: cmd+shift+backspace
-- Command palette: Open command palette: cmd+shift+p
-- Advanced new file: Create note in new tab: cmd+option+n
-
-
-
-**Chorded hotkeys**
-add cord: 
-```
----
-
-```
-
-
-
-**File Color**
-- Blue: 92/124/255
-- Folder Default: 221/221/221
-- Green: 55/182/180
-- Red: 248/84/84
-- Yellow: 255/198/76
-- Orange: 254/133/69
-- Purple: 157/141/255
-- Black: 84/84/84
-
-
-**Sequence Hotkeys**
-- Toggle bold: cmd+b cmd+b
-- Toggle left sidebar: cmd+k cmd+j
-
+2. Create file with the following: ./Documents/Obsidian Vault/.obsidian/snippets/snippet1.css
 ```
 :root {
   --green2: #37b6b4;
@@ -756,7 +691,76 @@ tr:nth-child(even) {
 
 ```
 
+3. Configure settings:
 
+**Editor**
+- *Disable* readable line length
+- *Enable* Spellcheck
+- Tab indent size = 2
+
+**File Links**
+- Default location for new notes: same folder as current file
+
+**Appearance**
+- accent color: #4C79CD
+- theme: Atom (install)
+- enable snippet1
+- disable Show title bar
+
+**Install community plugins:**
+- Quick Switcher++
+- Pane Relief
+- Code Editor Shortcuts
+- File Color
+- Advanced New File
+- Open In New Tab
+- Sequence Hotkeys
+- Chorded Hotkeys
+
+**Set Hotkeys**
+- Toggle checkbox status: blank
+- Toggle bold: blank
+- Set as heading 5: cmd+j
+- Quick Switcher++: Open in standard mode: cmd+p
+- Move line up: cmd+ctrl+up
+- Move line down: cmd+ctrl+down
+- Insert markdown link: blank
+- Graph view: Open graph view: blank
+- Delete paragraph: blank
+- Delete current file: cmd+shift+backspace
+- Command palette: Open command palette: cmd+shift+p
+- Advanced new file: Create note in new tab: cmd+option+n
+
+
+
+**Chorded hotkeys**
+add cord: 
+```
+---
+
+```
+
+
+
+
+
+
+**Sequence Hotkeys**
+- Toggle bold: cmd+b cmd+b
+- Toggle left sidebar: cmd+k cmd+j
+
+
+
+
+**File Color**
+- Blue: 92/124/255
+- Folder Default: 221/221/221
+- Green: 55/182/180
+- Red: 248/84/84
+- Yellow: 255/198/76
+- Orange: 254/133/69
+- Purple: 157/141/255
+- Black: 84/84/84
 
 
 
