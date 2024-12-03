@@ -550,14 +550,16 @@ mousetap:start()
 # Iterm2 #
 1. Download and install Iterm 2
 2. Settings:
-	- Disable confirm quit: General > Closing: uncheck all items
-	- Open new tabs in same dir: Profile > General: Working Directory: "Reuse previous sessions directory"
-	- (didnt do) Set colors: Profile > Colors: Set bg: 1e1f29 fg: bfbfbf
-	- (didnt do) Set font: Profile > Text: Set font size to 15
-	- Setup move tabs shortcut: Keys > Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
-	- Always show tab bar: Apperance > Tabs > select "Show tab bar even when there is only one tab"
-	- Dont stretch tab bars: Apperance > Tabs > unselect "Stetch tabs to fill bar"
-8. Edit/Create .zshrc (if it doesn't work, create .bashrc or .bash_profile)
+	- General > Closing >
+ 		- (Disable confirm quit) uncheck all items
+	- Profile > Default > General >
+ 		- (Open new tabs in same dir) Working Directory: "Reuse previous sessions directory"
+	- Keys > Key Bindings >
+ 		- (Setup move tabs shortcut) Move Tab Right: CTRL+SHIFT+PAGE UP, Move Tab Left: CTRL+SHIFT+PAGE DOWN
+	- Apperance > Tabs >
+ 		- (Always show tab bar) select "Show tab bar even when there is only one tab"
+		- (Dont stretch tab bars) unselect "Stetch tabs to fill bar"
+3. Edit/Create .zshrc (if it doesn't work, create .bashrc or .bash_profile)
 ```
 export PS1="%n: %~ > "
 export CLICOLOR=1
