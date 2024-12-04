@@ -777,8 +777,10 @@ git config --global user.email you@example.com
 1. Go to [personal qmk repo](https://github.com/shabazfarooq/qmk_firmware)
 	- hit "Sync Fork"
  	- clone to home folder
-3. Install [QMK](https://docs.qmk.fm/newbs_getting_started)
-2. Install [QMK Toolbox](https://github.com/qmk/qmk_toolbox)
+2. Install [QMK](https://docs.qmk.fm/newbs_getting_started)
+3. Install [QMK Toolbox](https://github.com/qmk/qmk_toolbox)
+4. To make changes/flash the keymap:
+	- Open qmk_firmware/personal_notes.txt for more details
 
 
 ---
