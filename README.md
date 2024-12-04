@@ -769,7 +769,8 @@ git config --global user.name "Your Name"
 git config --global user.email you@example.com
 ```
 2. Go to github.com → Settings → Developer Settings → Personal Access Token → Tokens (classic) → Generate New Token → Fill out form → Generate Token → Copy the generated token
-3. Do a test commit of anything, and use the token instead of password
+3. Open Keychain on mac > find github.com > change password from password to the token
+4. Do a test commit of anything, and use the token instead of password
 
 
 # QMK # 
