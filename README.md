@@ -11,6 +11,7 @@
 - [MonitorControl](#MonitorControl)
 - [Homebrew](#Homebrew)
 - [Obsidian](#Obsidian)
+- [Setup GIT](#Setup-Git)
 - [QMK (Keyboard)](#QMK)
 
 ---
@@ -758,6 +759,17 @@ add cord:
 - Purple: 157/141/255
 - Black: 84/84/84
 
+
+# Setup GIT #
+Note: using google authenticator app
+
+1. Run commands:
+```
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+```
+2. Go to github.com → Settings → Developer Settings → Personal Access Token → Tokens (classic) → Generate New Token → Fill out form → Generate Token → Copy the generated token
+3. Do a test commit of anything, and use the token instead of password
 
 
 # QMK # 
