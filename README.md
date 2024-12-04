@@ -778,7 +778,7 @@ git config --global user.email you@example.com
 	- hit "Sync Fork"
  	- clone to home folder
 2. Install [QMK](https://docs.qmk.fm/newbs_getting_started)
-3. Install [QMK Toolbox](https://github.com/qmk/qmk_toolbox)
+3. Install [QMK Toolbox](https://github.com/qmk/qmk_toolbox) (install from "Installer" not brew)
 4. To make changes/flash the keymap:
 	- Open qmk_firmware/personal_notes.txt for more details
 
