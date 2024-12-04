@@ -11,6 +11,7 @@
 - [MonitorControl](#MonitorControl)
 - [Homebrew](#Homebrew)
 - [Obsidian](#Obsidian)
+- [QMK (Keyboard)](#QMK)
 
 ---
 
@@ -758,6 +759,10 @@ add cord:
 - Black: 84/84/84
 
 
+
+# QMK # 
+1. Install [QMK](https://docs.qmk.fm/newbs_getting_started)
+2. Install [QMK Toolbox](https://github.com/qmk/qmk_toolbox)
 
 
 ---
