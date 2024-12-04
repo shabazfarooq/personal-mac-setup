@@ -774,7 +774,10 @@ git config --global user.email you@example.com
 
 
 # QMK # 
-1. Install [QMK](https://docs.qmk.fm/newbs_getting_started)
+1. Go to [personal qmk repo](https://github.com/shabazfarooq/qmk_firmware)
+	- hit "Sync Fork"
+ 	- clone to home folder
+3. Install [QMK](https://docs.qmk.fm/newbs_getting_started)
 2. Install [QMK Toolbox](https://github.com/qmk/qmk_toolbox)
 
 
