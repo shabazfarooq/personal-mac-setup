@@ -13,6 +13,7 @@
 - [Obsidian](#Obsidian)
 - [Setup GIT](#Setup-Git)
 - [QMK (Keyboard)](#QMK)
+- [VS Code](#VS-Code)
 
 ---
 
@@ -782,6 +783,12 @@ git config --global user.email you@example.com
 4. To make changes/flash the keymap:
 	- Open qmk_firmware/personal_notes.txt for more details
 
+
+# VS Code #
+1. Install VS Code
+2. Setup terminal command
+  - Open VS Code > CMD + Shift + P > Shell Command: install 'code command in PATH
+3.
 
 ---
 # Changing below #
