@@ -16,7 +16,7 @@
 - [VS Code](#VS-Code)
 - [Sublime Text](#Sublime-Text)
 
---- Deprecated:
+Deprecated:
 
 - [Setup Binary Folder](#Setup-Binary-Folder)
 - [SFDC Dev Tools](#SFDC-Dev-Tools)
@@ -933,13 +933,13 @@ Add to preferences:
 
 
 ---
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
+# Deprecated #
+# Deprecated #
+# Deprecated #
+# Deprecated #
+# Deprecated #
+# Deprecated #
+# Deprecated #
 ---
 
 
