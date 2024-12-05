@@ -754,7 +754,11 @@ tr:nth-child(even) {
 - Delete paragraph: blank
 - Delete current file: cmd+shift+backspace
 - Advanced new file: Create note in new tab: cmd+option+n
-
+- Navigate back: blank
+- Navigate forward: blank
+- Pane Relief: Cycle to next tab in this window: cmd+option+right
+- Pane Relief: Cycle to previous tab in this window: cmd+option+left
+- Code Editor Shortcuts: Insert line below: blank
 
 **Chorded hotkeys**
 
