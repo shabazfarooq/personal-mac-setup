@@ -710,7 +710,8 @@ tr:nth-child(even) {
 - Tab indent size = 2
 
 **File Links**
-- Default location for new notes: same folder as current file
+- Default location for new notes: Same folder as current file
+- Default location for new attachments: In the folder specified below: 0 - Files & Images
 
 **Appearance**
 - accent color: #4C79CD
@@ -732,6 +733,7 @@ tr:nth-child(even) {
 - Toggle checkbox status: blank
 - Code Editor Shortcuts: Join Lines: blank
 - Set as heading 5: cmd+shift+b
+- Command palette: Open command palette: cmd+shift+p
 - Quick Switcher++: Open in standard mode: cmd+p
 - Move line up: cmd+ctrl+up
 - Move line down: cmd+ctrl+down
@@ -739,15 +741,23 @@ tr:nth-child(even) {
 - Graph view: Open graph view: blank
 - Delete paragraph: blank
 - Delete current file: cmd+shift+backspace
-- Command palette: Open command palette: cmd+shift+p
 - Advanced new file: Create note in new tab: cmd+option+n
 
 
 **Chorded hotkeys**
+
 add cord: 
+```
+\
+```
+
 ```
 ---
 
+```
+
+```
+Text
 ```
 
 **Sequence Hotkeys**
