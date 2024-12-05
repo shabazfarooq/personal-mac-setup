@@ -788,7 +788,8 @@ git config --global user.email you@example.com
 1. Install VS Code
 2. Setup terminal command
   - Open VS Code > CMD + Shift + P > Shell Command: install 'code command in PATH
-3.
+3. Go to settings > sign in via Github to sync settings/extensions
+
 
 # Sublime Text #
 1. Downoad and install Sublimetext3
@@ -877,9 +878,9 @@ git config --global user.email you@example.com
 1. "Agila theme"
 Add to preferences:
 ```
-	"theme": "Agila.sublime-theme",
-  	"color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
-	"theme_agila_sidebar_small": true
+  "theme": "Agila.sublime-theme",
+  "color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
+  "theme_agila_sidebar_small": true
 
 ```
 2. "Clipboard Diff"
@@ -981,7 +982,7 @@ sudo chown -R $(whoami) /usr/local/bin
 1. git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
 2. Open a .cls and .pages file in Sublime, and on the bottom right select syntax, then select "Open all with current selection as..." and select SFDC-Syntax > Apex/VisualForce
 
-
+    
 # BetterTouchTool #
 1. Download and install BetterTouchTool
 1. Settings > Basic: select "Launch BetterTouchTool on startup"
