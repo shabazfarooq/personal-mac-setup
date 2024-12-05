@@ -607,7 +607,11 @@ App Store > (Bottom Left) click Shabaz Farooq >
 # Obsidian #
 1. Install Obsidian
 
-2. Create file with the following: ./Documents/Obsidian Vault/.obsidian/snippets/snippet1.css
+2. Navigate to ./Documents and pull obsidian-vault from git
+
+3. Open Obsidian, and open vault folder as ./Documents/obsidian-vault
+
+4. (if not already pulled from git) Create file with the following: ./Documents/obsidian-vault/.obsidian/snippets/snippet1.css
 ```
 :root {
   --green2: #37b6b4;
@@ -698,7 +702,7 @@ tr:nth-child(even) {
 
 ```
 
-3. Configure settings:
+5. Configure settings:
 
 **Editor**
 - *Disable* readable line length
