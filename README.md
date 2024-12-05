@@ -14,13 +14,13 @@
 - [Setup GIT](#Setup-Git)
 - [QMK (Keyboard)](#QMK)
 - [VS Code](#VS-Code)
-
----
-
-- [BetterTouchTool](#BetterTouchTool)
 - [Sublime Text](#Sublime-Text)
+
+--- Deprecated:
+
 - [Setup Binary Folder](#Setup-Binary-Folder)
 - [SFDC Dev Tools](#SFDC-Dev-Tools)
+- [BetterTouchTool](#BetterTouchTool)
 
 
 
@@ -790,80 +790,85 @@ git config --global user.email you@example.com
   - Open VS Code > CMD + Shift + P > Shell Command: install 'code command in PATH
 3.
 
----
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
-# Changing below #
----
-
-
-# BetterTouchTool #
-1. Download and install BetterTouchTool
-1. Settings > Basic: select "Launch BetterTouchTool on startup"
-2. Settings > User Interface: unselect "Show Menubar icon"
-1. Setup keyboard shortcuts:
-![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BTT_KB2.png "")
-
-
-
-
-
-
-
-
-
 # Sublime Text #
 1. Downoad and install Sublimetext3
 2. Install [Package Control](https://packagecontrol.io/installation)
 3. Setup preferences.sublime-settings
 ```
 {
-	"show_full_path": true,
-	"auto_close_tags": false,
-	"auto_match_enabled": false,
-	"caret_extra_bottom": 3,
-	"caret_extra_top": 3,
-	"caret_extra_width": 2,
-	"draw_white_space": "all",
-	"file_exclude_patterns":
-	[
-		"*meta.xml",
-		"*sublime*"
-	],
-	"folder_exclude_patterns":
-	[
-		".svn"
-	],
-	"font_size": 16,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"ignored_words":
-	[
-		"Accessor",
-		"callout",
-		"picklist"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"preview_on_click": false,
-	"rulers":
-	[
-		80,
-		100
-	],
-	"spell_check": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true
+  "scroll_past_end": true,
+  "open_files_in_new_window": false,
+  "added_words":
+  [
+    "salesforce",
+    "https",
+    "Ctrl",
+    "Preorder",
+    "Inorder",
+  ],
+  "auto_close_tags": false,
+  "auto_match_enabled": false,
+  "caret_extra_bottom": 3,
+  "caret_extra_top": 3,
+  "caret_extra_width": 2,
+  "color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
+  "draw_white_space": "all",
+  "file_exclude_patterns":
+  [
+    "*meta.xml",
+    "*sublime*"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".svn"
+  ],
+  "font_size": 15,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage",
+  ],
+  "ignored_words":
+  [
+    "",
+    "12x",
+    "4x",
+    "Accessor",
+    "Deserialize",
+    "Managehire",
+    "Queueable",
+    "Sobject",
+    "Timeslots",
+    "Upsert",
+    "Vue",
+    "app",
+    "callout",
+    "deserialize",
+    "editablity",
+    "js",
+    "picklist",
+    "tbd",
+    "updateable",
+    "workflow",
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "preview_on_click": false,
+  "rulers":
+  [
+    80,
+    100
+  ],
+  "show_full_path": true,
+  "spell_check": true,
+  "tab_size": 2,
+  "theme": "Agila.sublime-theme",
+  "theme_agila_sidebar_small": true,
+  "translate_tabs_to_spaces": true,
+  "index_files": true,
 }
 
 ```
@@ -879,7 +884,7 @@ Add to preferences:
 ```
 2. "Clipboard Diff"
 3. "Pretty JSON"
-4. Install MoveTab, then Setup keyboard shortcuts, click "Sublime Text", "Preferences", "Key Bindings":
+4. Install MoveTab, then Setup keyboard shortcuts, click "Sublime Text", "Settings", "Key Bindings":
 ```
 [
   {
@@ -899,9 +904,43 @@ Add to preferences:
     "args": {
       "position": "+1"
     }
+  },
+  {
+    "keys": ["super+k", "super+j"],
+    "command": "toggle_side_bar"
   }
 ]
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+# Changing below #
+---
 
 
 
@@ -916,12 +955,6 @@ Add to preferences:
 mkdir /usr/local/bin
 sudo chown -R $(whoami) /usr/local/bin
 ```
-
-
-
-
-
-
 
 # SFDC Dev Tools #
 
@@ -949,3 +982,9 @@ sudo chown -R $(whoami) /usr/local/bin
 2. Open a .cls and .pages file in Sublime, and on the bottom right select syntax, then select "Open all with current selection as..." and select SFDC-Syntax > Apex/VisualForce
 
 
+# BetterTouchTool #
+1. Download and install BetterTouchTool
+1. Settings > Basic: select "Launch BetterTouchTool on startup"
+2. Settings > User Interface: unselect "Show Menubar icon"
+1. Setup keyboard shortcuts:
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BTT_KB2.png "")
