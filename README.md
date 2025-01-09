@@ -7,6 +7,7 @@
 - [Hammerspoon](#Hammerspoon)
 - [Karabiner Elements](#Karabiner-Elements)
 - [Iterm2](#Iterm2)
+- [Alfred](#Alfred)
 - [App Store Apps](#AppStoreApps)
 - [MonitorControl](#MonitorControl)
 - [Homebrew](#Homebrew)
@@ -51,6 +52,9 @@ Extensions that will transfer over:
 - "Appearance": Dark
 - "Show scroll bars": Always
 
+##### Display >
+- LG Monitor: 2560x1080 (Default)
+
 ##### Desktop & Dock >
 - "Default web browser": Chrome
 - "Size": small-ish
@@ -61,7 +65,8 @@ Extensions that will transfer over:
 
 ##### Keyboard >
 - "Key Repeat": Fast
-- "Delay Unil Repeat": Short
+- "Delay Unil Repeat": Short - 1 click
+- Text Input > Edit > disable "Add period with double-spaces"
 
 ##### Mouse >
 - "Tracking speed": adjust to preference
@@ -69,6 +74,7 @@ Extensions that will transfer over:
 ##### Trackpad >
 - "Tap to click"
 - To Enable Three Finger Drag: Accessibility > Pointer Control > Trackpad Options... > Enable "User trackpad for dragging" > three finger drag
+
 
 
 
@@ -572,6 +578,16 @@ export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -n"
 # Sublime alias
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 ```
+
+
+
+
+# Alfred #
+1. Download and install Alfred
+  - Set alfred keymap to: cmd+space
+  - Change spotlight keymap to: alt+space: 
+      System Settings > Keyboard > Keyboard Shortcuts > Spotlight
+
 
 
 
