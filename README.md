@@ -554,6 +554,9 @@ mousetap:start()
 ```
 
 
+# Homebrew #
+1. Install [Homebrew](https://brew.sh/)
+2. brew install --cask font-meslo-lg-nerd-font
 
 
 # Iterm2 #
@@ -566,15 +569,15 @@ mousetap:start()
 		- unselect "Stetch tabs to fill bar"
 	- Profile > Default > General >
  		- Initial Directory: "Reuse previous sessions directory"
+	- Profile > Text >
+ 		- Font: MesloLGL Nerd Font Mono
+ 		Size: 14
 	- Keys > Key Bindings >
  		- Move Tab Right: CTRL+SHIFT+PAGE UP
    		- Move Tab Left: CTRL+SHIFT+PAGE DOWN
 		- Previous Tab: CMD+OPTION+LEFT
   		- Next Tab: CMD+OPTION+RIGHT
 3. Edit/Create .zshrc (if it doesn't work, create .bashrc or .bash_profile)
-4. (After installing Homebrew)
-	- brew install --cask font-meslo-lg-nerd-font
-	- Settings > Profile > Text > Font: MesloLGL Nerd Font Mono, Size: 14
 ```
 ##
 ##
@@ -711,9 +714,6 @@ App Store > (Bottom Left) click Shabaz Farooq >
 1. Install [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)
 2. System Settings > Privacy & Security > Accessibility > check MonitorControl
 3. Dock Icon > Settings > General > Start at Login
-
-# Homebrew #
-1. Install [Homebrew](https://brew.sh/)
 
 # Setup GIT #
 Note: using google authenticator app
