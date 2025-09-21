@@ -6,11 +6,11 @@
 - [Setup Finder](#Setup-Finder)
 - [Hammerspoon](#Hammerspoon)
 - [Karabiner Elements](#Karabiner-Elements)
+- [Homebrew](#Homebrew)
 - [Iterm2](#Iterm2)
 - [Alfred](#Alfred)
 - [App Store Apps](#AppStoreApps)
 - [MonitorControl](#MonitorControl)
-- [Homebrew](#Homebrew)
 - [Setup GIT](#Setup-Git)
 - [Obsidian](#Obsidian)
 - [QMK (Keyboard)](#QMK)
@@ -567,11 +567,11 @@ mousetap:start()
  	- Apperance > Tabs >
  		- select "Show tab bar even when there is only one tab"
 		- unselect "Stetch tabs to fill bar"
-	- Profile > Default > General >
+	- Profile > General >
  		- Initial Directory: "Reuse previous sessions directory"
 	- Profile > Text >
  		- Font: MesloLGL Nerd Font Mono
- 		Size: 14
+ 		- Size: 14
 	- Keys > Key Bindings >
  		- Move Tab Right: CTRL+SHIFT+PAGE UP
    		- Move Tab Left: CTRL+SHIFT+PAGE DOWN
