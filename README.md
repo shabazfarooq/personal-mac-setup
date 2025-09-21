@@ -15,6 +15,7 @@
 - [Obsidian](#Obsidian)
 - [QMK (Keyboard)](#QMK)
 - [VS Code](#VS-Code)
+- [SF Development](#SF-Development)
 
 
 Deprecated:
@@ -917,9 +918,9 @@ Text
   - Open VS Code > CMD + Shift + P > Shell Command: install 'code command in PATH
 3. Go to settings > sign in via Github to sync settings/extensions
 
-
-
-
+# SF Development #
+1. Install [SF Cli Tool](https://developer.salesforce.com/tools/salesforcecli)
+2. mkdir sf-workspace
 
 
 
