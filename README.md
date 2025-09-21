@@ -618,7 +618,8 @@ App Store > (Bottom Left) click Shabaz Farooq >
 
 # MonitorControl #
 1. Install [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)
-2. Open and enable permissions
+2. System Settings > Privacy & Security > Accessibility > check MonitorControl
+3. Dock Icon > Settings > General > Start at Login
 
 # Homebrew #
 1. Install [Homebrew](https://brew.sh/)
