@@ -572,14 +572,103 @@ mousetap:start()
 		- Previous Tab: CMD+OPTION+LEFT
   		- Next Tab: CMD+OPTION+RIGHT
 3. Edit/Create .zshrc (if it doesn't work, create .bashrc or .bash_profile)
+4. (After installing Homebrew)
+  - brew install --cask font-meslo-lg-nerd-font
+  - Settings > Profile > Text > Font: MesloLGL Nerd Font Mono
+                                Size: 14
 ```
-export PS1="%n: %~ > "
-export CLICOLOR=1
-export LSCOLORS=ExFxCxDxBxegedabagacad
-export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -n"
+##
+##
+## GENERAL
+##
+##
 
 # Sublime alias
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+# Converts: sf sobject describe --sobject IAMP__IAMP_Log__c | jq -r '.fields[]?.name'
+# To: sf sobject describe --sobject IAMP__IAMP_Log__c | fieldNames
+alias fieldnames="jq -r '.fields[]?.name'"
+
+
+##
+##
+## PROMPT
+##
+##
+
+## PROMPT Settings
+
+# Allow colors
+export CLICOLOR=1
+# Color scheme (folder colors, etc)
+export LSCOLORS=ExFxCxDxBxegedabagacad
+# Allows for prompt history
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -n"
+# Allows variables within prompt
+setopt PROMPT_SUBST
+
+# Colors
+COLOR_DEF='%f'
+COLOR_USR='%F{243}'
+COLOR_DIR='%F{197}'
+COLOR_GIT='%F{120}'
+COLOR_SF='%F{39}'
+COLOR_CCI='%F{214}'
+
+## PROMPT Functions
+git_prompt() {
+  # Get current git repo name
+  local repo_path=$(git rev-parse --show-toplevel 2>/dev/null) || return
+  local repo=${repo_path##*/}
+
+  # Get current git branch
+  local branch=$(git symbolic-ref --short HEAD 2>/dev/null || git rev-parse --short HEAD 2>/dev/null)
+
+  # Exit if both repo and branch are empty
+  [[ -n "$repo" || -n "$branch" ]] || return
+
+  # Echo formatted git info
+  echo "${COLOR_GIT} ${repo:+$repo}${repo:+:}${branch}"
+}
+
+sf_prompt() {
+  # Exit if not inside sfdx-workspace
+  [[ $PWD != *sfdx-workspace* ]] && return
+
+  # Get SFDC org
+  local raw_org=$(sf config get target-org --json 2>/dev/null | jq -r '.result[0].value')
+
+  # Strip org namespace (SalesforceBase__, VerunaCore__, etc)
+  local sf_org=${raw_org#*__}
+
+  # Echo org name if it exist
+  if [[ -n "$sf_org" && "$sf_org" != "null" ]]; then
+  echo "${COLOR_SF} \uf0c2 $sf_org"
+  fi
+}
+
+base_prompt() {
+  echo "${COLOR_USR}%n: ${COLOR_DIR}%~ ${COLOR_DEF}> "
+}
+
+final_prompt() {
+  # load all prompts
+  local g=$(git_prompt)
+  local s=$(sf_prompt)
+  local b=$(base_prompt)
+
+  # If git OR sf: git_prompt sf_prompt NEWLINE base_prompt
+  if [[ -n $g || -n $s ]]; then
+    print -r -- "$g$s"$'\n'"$b"
+  # Else: base_prompt
+  else
+    print -r -- "$b"
+  fi
+}
+
+## PROMPT Display
+export PROMPT='$(final_prompt)'
 ```
 
 
