@@ -636,8 +636,8 @@ git_prompt() {
 }
 
 sf_prompt() {
-  # Exit if not inside sfdx-workspace
-  [[ $PWD != *sfdx-workspace* ]] && return
+  # Exit if not inside sf-workspace
+  [[ $PWD != *sf-workspace* ]] && return
 
   # Get SFDC org
   local raw_org=$(sf config get target-org --json 2>/dev/null | jq -r '.result[0].value')
