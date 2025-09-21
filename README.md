@@ -573,9 +573,8 @@ mousetap:start()
   		- Next Tab: CMD+OPTION+RIGHT
 3. Edit/Create .zshrc (if it doesn't work, create .bashrc or .bash_profile)
 4. (After installing Homebrew)
-  - brew install --cask font-meslo-lg-nerd-font
-  - Settings > Profile > Text > Font: MesloLGL Nerd Font Mono
-                                Size: 14
+	- brew install --cask font-meslo-lg-nerd-font
+	- Settings > Profile > Text > Font: MesloLGL Nerd Font Mono, Size: 14
 ```
 ##
 ##
