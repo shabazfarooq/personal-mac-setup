@@ -557,17 +557,17 @@ mousetap:start()
 1. Download and install Iterm 2
 2. Settings:
 	- General > Closing >
- 		- (Disable confirm quit) uncheck all items
+ 		- uncheck all items
+ 	- Apperance > Tabs >
+ 		- select "Show tab bar even when there is only one tab"
+		- unselect "Stetch tabs to fill bar"
 	- Profile > Default > General >
- 		- Initial Directory: "Reuse previous sessions directory" (Open new tabs in same dir)
+ 		- Initial Directory: "Reuse previous sessions directory"
 	- Keys > Key Bindings >
  		- Move Tab Right: CTRL+SHIFT+PAGE UP
    		- Move Tab Left: CTRL+SHIFT+PAGE DOWN
 		- Previous Tab: CMD+OPTION+LEFT
   		- Next Tab: CMD+OPTION+RIGHT
- 	- Apperance > Tabs >
- 		- (Always show tab bar) select "Show tab bar even when there is only one tab"
-		- (Dont stretch tab bars) unselect "Stetch tabs to fill bar"
 3. Edit/Create .zshrc (if it doesn't work, create .bashrc or .bash_profile)
 ```
 export PS1="%n: %~ > "
