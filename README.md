@@ -559,7 +559,7 @@ mousetap:start()
 	- General > Closing >
  		- (Disable confirm quit) uncheck all items
 	- Profile > Default > General >
- 		- (Open new tabs in same dir) Working Directory: "Reuse previous sessions directory"
+ 		- Initial Directory: "Reuse previous sessions directory" (Open new tabs in same dir)
 	- Keys > Key Bindings >
  		- Move Tab Right: CTRL+SHIFT+PAGE UP
    		- Move Tab Left: CTRL+SHIFT+PAGE DOWN
