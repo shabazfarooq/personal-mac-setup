@@ -596,9 +596,10 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 App Store > (Bottom Left) click Shabaz Farooq >
 
 1.  Capslocker
-	- Dock Icon > Preferences:
+	- Menu Bar Icon > Preferences:
 	- check: Start at Login
-	- uncheck: Use colored CapsLock status icon
+ 	- check: Play sounds
+	- check: Use colored CapsLock status icon
 	- check: reverse colors
 2. Magnet
 	- Dock Icon > Preferences:
@@ -609,9 +610,10 @@ App Store > (Bottom Left) click Shabaz Farooq >
    	- Right: ^3
    	- Maximize: ^1
 4. Xcode
-5. Numbers
-6. Pages
-7. Keynote
+5. Apple Developer
+6. Numbers
+7. Pages
+8. Keynote
 
 # MonitorControl #
 1. Install [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)
