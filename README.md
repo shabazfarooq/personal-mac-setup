@@ -15,14 +15,14 @@
 - [Obsidian](#Obsidian)
 - [QMK (Keyboard)](#QMK)
 - [VS Code](#VS-Code)
-- [Sublime Text](#Sublime-Text)
+
 
 Deprecated:
 
 - [Setup Binary Folder](#Setup-Binary-Folder)
 - [SFDC Dev Tools](#SFDC-Dev-Tools)
 - [BetterTouchTool](#BetterTouchTool)
-
+- [Sublime Text](#Sublime-Text)
 
 
 
@@ -53,18 +53,21 @@ Extensions that will transfer over:
 - "Show scroll bars": Always
 
 ##### Display >
-- LG Monitor: 2560x1080 (Default)
+- Advanced > Show resolutions as list
+- LG Monitor: 3008x1269
 
 ##### Desktop & Dock >
-- "Default web browser": Chrome
 - "Size": small-ish
-- "Magnification": min-ish
+- "Magnification": off
 - "Minimize windows into applicaiton icon"
 - "Automatically hide and show the Dock"
-- uncheck "Show recent applicaitons in Dock"
+- uncheck "Show suggested and recent applicaitons in Dock"
+- "Show Desktop" > "Only in Stage Manager on Click"
+- "Show Widgets" > uncheck "On Desktop"
+- "Default web browser": Chrome
 
 ##### Keyboard >
-- "Key Repeat": Fast
+- "Key Repeat Rate": Fast
 - "Delay Unil Repeat": Short - 1 click
 - Text Input > Edit > disable "Add period with double-spaces"
 
@@ -174,7 +177,7 @@ mousetap:start()
 	- Simple Modifications > (Note: Mouse icon) 2.4G Wireless receiver (Nordic):
  	- mouse button2 to mouse button4
 	- mouse button4 to mouse button2
-6. Create JSON file with code below to add arrow keys: .config/karabiner/assets/complex_modifications/arrows.json
+6. Create JSON file with code below to add arrow keys: .config/karabiner/assets/complex_modifications/my_mods.json
 7. Then go to "Complex Modifications" > Add predfined rule > select
 	- "Right Command + IJKL arrows"
 	- "Right Command + u/o to pageup/pagedown"
@@ -828,6 +831,85 @@ Text
 3. Go to settings > sign in via Github to sync settings/extensions
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+# Deprecated #
+# Deprecated #
+# Deprecated #
+# Deprecated #
+# Deprecated #
+# Deprecated #
+# Deprecated #
+---
+
+
+
+
+
+
+
+
+
+# Setup Binary Folder #
+```
+mkdir /usr/local/bin
+sudo chown -R $(whoami) /usr/local/bin
+```
+
+# SFDC Dev Tools #
+
+##### Install ant:
+1. Install [Homebrew](https://brew.sh/)
+2. Install ant: brew install ant
+3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
+4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /opt/homebrew/Cellar/ant/1.10.9/libexec/lib
+
+##### Install force-cli:
+1. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
+(chmod +x the force file)
+
+##### Install fforce:
+1. git clone [fforce](https://github.com/shabazfarooq/fforce-go) to /usr/local/bin
+2. Sublime Text > Tools > Build System > New Build System (Save file as "fforce")
+```
+{
+  "cmd": ["fforce build $folder $file $file_extension"],
+  "shell": true
+}
+```
+##### Sublime SFDC Syntax Highlighting:
+1. git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
+2. Open a .cls and .pages file in Sublime, and on the bottom right select syntax, then select "Open all with current selection as..." and select SFDC-Syntax > Apex/VisualForce
+
+    
+# BetterTouchTool #
+1. Download and install BetterTouchTool
+1. Settings > Basic: select "Launch BetterTouchTool on startup"
+2. Settings > User Interface: unselect "Show Menubar icon"
+1. Setup keyboard shortcuts:
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BTT_KB2.png "")
+
+
 # Sublime Text #
 1. Downoad and install Sublimetext3
 2. Install [Package Control](https://packagecontrol.io/installation)
@@ -949,80 +1031,3 @@ Add to preferences:
   }
 ]
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-# Deprecated #
-# Deprecated #
-# Deprecated #
-# Deprecated #
-# Deprecated #
-# Deprecated #
-# Deprecated #
----
-
-
-
-
-
-
-
-
-
-# Setup Binary Folder #
-```
-mkdir /usr/local/bin
-sudo chown -R $(whoami) /usr/local/bin
-```
-
-# SFDC Dev Tools #
-
-##### Install ant:
-1. Install [Homebrew](https://brew.sh/)
-2. Install ant: brew install ant
-3. Download [Force Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
-4. Unzip Force Migration Tool and copy ant-salesforce.jar to: /opt/homebrew/Cellar/ant/1.10.9/libexec/lib
-
-##### Install force-cli:
-1. Install [force-cli](http://force-cli.herokuapp.com/) to /usr/local/bin
-(chmod +x the force file)
-
-##### Install fforce:
-1. git clone [fforce](https://github.com/shabazfarooq/fforce-go) to /usr/local/bin
-2. Sublime Text > Tools > Build System > New Build System (Save file as "fforce")
-```
-{
-  "cmd": ["fforce build $folder $file $file_extension"],
-  "shell": true
-}
-```
-##### Sublime SFDC Syntax Highlighting:
-1. git clone [SFDC-Syntax](https://github.com/shabazfarooq/SFDC-Syntax) to ~/Library/Application Support/Sublime Text 3/Packages/
-2. Open a .cls and .pages file in Sublime, and on the bottom right select syntax, then select "Open all with current selection as..." and select SFDC-Syntax > Apex/VisualForce
-
-    
-# BetterTouchTool #
-1. Download and install BetterTouchTool
-1. Settings > Basic: select "Launch BetterTouchTool on startup"
-2. Settings > User Interface: unselect "Show Menubar icon"
-1. Setup keyboard shortcuts:
-![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BTT_KB2.png "")
