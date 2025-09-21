@@ -602,7 +602,8 @@ App Store > (Bottom Left) click Shabaz Farooq >
 	- check: Use colored CapsLock status icon
 	- check: reverse colors
 2. Magnet
-	- Dock Icon > Preferences:
+	- Open app and enable permissions
+ 	- Dock Icon > Settings:
  	- check: Synchronize settings via iCloud
   	- check: Add Mgnet to login items
    	- Commands >
