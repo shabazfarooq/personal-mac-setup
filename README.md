@@ -31,6 +31,7 @@ Deprecated:
 
 
 # Install Chrome #
+##### Install chrome:
 1. Download and install Chrome.
 2. Sign in, all extensions available from the chrome app store will automatically install. Non-app store extensions will need to be installed manually
 
@@ -46,13 +47,16 @@ Deprecated:
 5. [Salesforce Toolkit](https://chromewebstore.google.com/detail/salesforce-toolkit/konbmllgicfccombdckckakhnmejjoei)
 6. [Tab to Window/Popup - Keyboard Shortcut](https://chrome.google.com/webstore/detail/tab-to-windowpopup-keyboa/adbkphmimfcaeonicpmamfddbbnphikh/related?hl=en)
 
-##### Set extension shortcuts:
-For the following extensions, clear all the shortcuts:
+##### Following extensions, clear all the shortcuts:
 - Salesforce Inspector Reloaded
 - Salesforce Log Inspector
 
-Follow the screenshots for the extension shortcuts:
-![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/BTT/BTT_KB2.png "")
+##### Following exsions, set these shortcuts:
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/duplicate_tab.png "")
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/salesforce_nav.png "")
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/salesforce_toolkit.png "")
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/sfdc_shortcuts.png "")
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/tab_to_window.png "")
 
 
 
