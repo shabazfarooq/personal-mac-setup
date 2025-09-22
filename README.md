@@ -26,6 +26,10 @@ Deprecated:
 - [Sublime Text](#Sublime-Text)
 
 
+  
+
+
+
 
 
 
@@ -52,10 +56,10 @@ Deprecated:
 - Salesforce Log Inspector
 
 ##### Following exsions, set these shortcuts:
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/sfdc_shortcuts.png "")
 ![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/duplicate_tab.png "")
 ![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/salesforce_nav.png "")
 ![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/salesforce_toolkit.png "")
-![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/sfdc_shortcuts.png "")
 ![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/tab_to_window.png "")
 
 
