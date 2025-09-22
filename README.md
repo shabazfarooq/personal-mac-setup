@@ -31,18 +31,28 @@ Deprecated:
 
 
 # Install Chrome #
-Download and install Chrome.
-Sign in, all extensions available from the chrome app store will automatically install.While non-app store extensions will need to be installed manually
+1. Download and install Chrome.
+2. Sign in, all extensions available from the chrome app store will automatically install. Non-app store extensions will need to be installed manually
 
-Install extensions:
+##### Install extensions:
 1. [SFDC Chrome Shortcuts](https://github.com/shabazfarooq/SFDC-Shortcuts-Chrome)
+2. [SFDC-Search-Focus](https://github.com/shabazfarooq/SFDC-Search-Focus)
 
-Extensions that will transfer over:
+##### Extensions that will transfer over:
 1. [Duplicate Tab Shortcut Key](https://chrome.google.com/webstore/detail/duplicate-tab-shortcut/klehggjefofgiajjfpoebdidnpjmljhb/related?hl=en)
-(Remove the shortcut for "Popup")
-2. [Tab to Window/Popup - Keyboard Shortcut](https://chrome.google.com/webstore/detail/tab-to-windowpopup-keyboa/adbkphmimfcaeonicpmamfddbbnphikh/related?hl=en)
-4. Night Theme - Dark Mode
+2. [Salesforce Inspector Reloaded](https://chromewebstore.google.com/detail/salesforce-inspector-relo/hpijlohoihegkfehhibggnkbjhoemldh)
+3. [Salesforce Log Inspector](https://chromewebstore.google.com/detail/salesforce-log-inspector/jebmhhcaiafpcjneboknfkmijegiihoe)
+4. [Salesforce Navigator for Lightning](https://chromewebstore.google.com/detail/salesforce-navigator-for/pbjjdhghffpemcglcadejmkcpnpmlklh)
+5. [Salesforce Toolkit](https://chromewebstore.google.com/detail/salesforce-toolkit/konbmllgicfccombdckckakhnmejjoei)
+6. [Tab to Window/Popup - Keyboard Shortcut](https://chrome.google.com/webstore/detail/tab-to-windowpopup-keyboa/adbkphmimfcaeonicpmamfddbbnphikh/related?hl=en)
 
+##### Set extension shortcuts:
+For the following extensions, clear all the shortcuts:
+- Salesforce Inspector Reloaded
+- Salesforce Log Inspector
+
+Follow the screenshots for the extension shortcuts:
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/BTT/BTT_KB2.png "")
 
 
 
@@ -114,7 +124,9 @@ uncheck:
 - Documents
 - AirDrop
 
-##### View > Show Path Bar
+##### View > 
+- check "Show Path Bar"
+- click "View Show Options" > Sort By: "Name"
 
 
 
@@ -995,7 +1007,7 @@ sudo chown -R $(whoami) /usr/local/bin
 1. Settings > Basic: select "Launch BetterTouchTool on startup"
 2. Settings > User Interface: unselect "Show Menubar icon"
 1. Setup keyboard shortcuts:
-![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/BTT_KB2.png "")
+![alt text](https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/BTT/BTT_KB2.png "")
 
 
 # Sublime Text #
