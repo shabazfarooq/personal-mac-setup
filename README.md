@@ -139,6 +139,10 @@ uncheck:
 - click "View Show Options" > Sort By: "Name"
 
 
+##### Create folders:
+- workspace
+- sf-workspace
+
 
 # Hammerspoon #
 1. Download and install
@@ -927,7 +931,8 @@ Text
 # QMK # 
 1. Go to [personal qmk repo](https://github.com/shabazfarooq/qmk_firmware)
 	- hit "Sync Fork"
- 	- clone to home folder
+	- clone to workspace/
+	- qmk setup -H ~/workspace/qmk_firmware
 2. Install [QMK](https://docs.qmk.fm/newbs_getting_started)
 3. Install [QMK Toolbox](https://github.com/qmk/qmk_toolbox) (install from "Installer" not brew)
 4. To make changes/flash the keymap:
