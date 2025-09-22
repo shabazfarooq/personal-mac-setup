@@ -57,23 +57,12 @@ Deprecated:
 - Salesforce Log Inspector
 
 ##### Following exsions, set these shortcuts:
-<ul style="list-style-type:none; padding-left:20px;">
-  <li>
-    <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/sfdc_shortcuts.png" width="60%" />
-  </li>
-  <li>
-    <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/duplicate_tab.png" width="60%" />
-  </li>
-  <li>
-    <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/salesforce_nav.png" width="60%" />
-  </li>
-  <li>
-    <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/salesforce_toolkit.png" width="60%" />
-  </li>
-  <li>
-    <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/tab_to_window.png" width="60%" />
-  </li>
-</ul>
+- <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/sfdc_shortcuts.png" width="60%" />
+- <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/duplicate_tab.png" width="60%" />
+- <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/salesforce_nav.png" width="60%" />
+- <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/salesforce_toolkit.png" width="60%" />
+- <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/chrome-extensions/tab_to_window.png" width="60%" />
+
 
 
 
