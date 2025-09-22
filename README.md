@@ -106,6 +106,7 @@ Deprecated:
 # Setup Finder #
 ##### General > 
 - new finder window shows: Shabaz
+- uncheck "Open folders in tabs instead of windows"
 
 ##### Tags >
 - unselect all
