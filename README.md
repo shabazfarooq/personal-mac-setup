@@ -26,7 +26,7 @@ Deprecated:
 - [Sublime Text](#Sublime-Text)
 
 
-  
+
 
 
 
@@ -38,6 +38,7 @@ Deprecated:
 ##### Install chrome:
 1. Download and install Chrome.
 2. Sign in, all extensions available from the chrome app store will automatically install. Non-app store extensions will need to be installed manually
+3. Chrome (top left menu bar) > uncheck "Warn Before Quitting"
 
 ##### Install extensions:
 1. [SFDC Chrome Shortcuts](https://github.com/shabazfarooq/SFDC-Shortcuts-Chrome)
