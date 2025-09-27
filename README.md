@@ -733,8 +733,8 @@ App Store > (Bottom Left) click Shabaz Farooq >
    	- Right: ^3
    	- Maximize: ^1
 3. BorderMe
-	Open app
-	Menu Icon > 
+	- Open app
+	- Menu Icon > 
 		- check: Start automatically at login
 		- uncheck: Animate border
 		- Thickness: 2
