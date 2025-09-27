@@ -740,11 +740,14 @@ App Store > (Bottom Left) click Shabaz Farooq >
 		- Thickness: 2
 		- Corder Radius: 15.0
 		- Animation speed: 0
-4. Xcode
-5. Apple Developer
-6. Numbers
-7. Pages
-8. Keynote
+4. Hidden Bar
+	- Open app
+  - General > check: Start Hidden Bar when i log in
+5. Xcode
+6. Apple Developer
+7. Numbers
+8. Pages
+9. Keynote
 
 # MonitorControl #
 1. Install [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)
