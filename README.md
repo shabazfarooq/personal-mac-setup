@@ -718,20 +718,28 @@ export PROMPT='$(final_prompt)'
 App Store > (Bottom Left) click Shabaz Farooq >
 
 1.  Capslocker
-	- Menu Bar Icon > Preferences:
+	- Menu Icon > Preferences:
 	- check: Start at Login
  	- check: Play sounds
 	- check: Use colored CapsLock status icon
 	- check: reverse colors
 2. Magnet
 	- Open app and enable permissions
- 	- Dock Icon > Settings:
+ 	- Menu Icon > Settings:
  	- check: Synchronize settings via iCloud
   	- check: Add Mgnet to login items
    	- Commands >
    	- Left: ^2
    	- Right: ^3
    	- Maximize: ^1
+3. BorderMe
+	Open app
+	Menu Icon > 
+		- check: Start automatically at login
+		- uncheck: Animate border
+		- Thickness: 2
+		- Corder Radius: 15.0
+		- Animation speed: 0
 4. Xcode
 5. Apple Developer
 6. Numbers
