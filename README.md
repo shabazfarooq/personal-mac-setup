@@ -16,6 +16,7 @@
 - [QMK (Keyboard)](#QMK)
 - [VS Code](#VS-Code)
 - [SF Development](#SF-Development)
+- [Misc Apps](#Misc-Apps)
 
 
 Deprecated:
@@ -948,6 +949,10 @@ Text
 # SF Development #
 1. Install [SF Cli Tool](https://developer.salesforce.com/tools/salesforcecli)
 2. mkdir sf-workspace
+
+# Misc Apps #
+1. Install ChatGPT
+2. Install [noTunes](https://github.com/tombonez/noTunes)
 
 
 
