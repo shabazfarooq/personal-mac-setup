@@ -960,6 +960,9 @@ Text
 # SF Development #
 1. Install [SF Cli Tool](https://developer.salesforce.com/tools/salesforcecli)
 2. mkdir sf-workspace
+3. Install [JDK](https://www.oracle.com/java/technologies/downloads/#jdk25-mac)
+4. If VS gives an error for code-analyzer: sf plugins install code-analyzer
+5. View > uncheck: Show Minimap
 
 # Misc Apps #
 1. Install ChatGPT
