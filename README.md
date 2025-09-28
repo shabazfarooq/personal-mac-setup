@@ -742,7 +742,9 @@ App Store > (Bottom Left) click Shabaz Farooq >
 		- Animation speed: 0
 4. Hidden Bar
 	- Open app
-	- General > check: Start Hidden Bar when i log in
+	- General > 
+		- check: Start Hidden Bar when i log in
+		- uncheck: Show preferences on launch
 5. Xcode
 6. Apple Developer
 7. Numbers
