@@ -621,6 +621,27 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias fieldnames="jq -r '.fields[]?.name'"
 
 
+# Open the GIT PR for the current branch (exact /pull/<number>), or fall back to the compare page
+gitpr() {
+	# Try to open the existing PR
+	if command -v gh >/dev/null 2>&1; then
+		gh pr view --web 2>/dev/null && return 0
+	fi
+
+	# Fallback: open compare page (lets you create a PR)
+	local repo branch opener
+	repo="$(git remote get-url origin | sed -E 's#git@github.com:#https://github.com/#; s#\.git$##')"
+	branch="$(git rev-parse --abbrev-ref HEAD)"
+	# pick the right opener for your OS
+	if [[ "$OSTYPE" == "darwin"* ]]; then opener="open"
+	elif command -v xdg-open >/dev/null 2>&1; then opener="xdg-open"
+	else opener="explorer.exe"
+	fi
+
+	"$opener" "${repo}/compare/${branch}?expand=1"
+}
+
+
 ##
 ##
 ## PROMPT
