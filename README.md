@@ -991,6 +991,7 @@ Text
 # Misc Apps #
 1. Install ChatGPT
 2. Install [noTunes](https://github.com/tombonez/noTunes)
+3. brew install node
 
 
 
