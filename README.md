@@ -1000,7 +1000,7 @@ Text
 2. Open Apple Shortcuts and create the following shortcuts:
 
 ```
-// Switch to Headset
+# Switch to Headset
 SwitchAudioSource -t output -s "Plantronics Blackwire 5220 Series" && SwitchAudioSource -t input -s "Plantronics Blackwire 5220 Series"
 ```
 <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/sound-notifications/headset.png" width="60%" />
