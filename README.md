@@ -999,21 +999,18 @@ Text
 1. brew install switchaudio-osx
 2. Open Apple Shortcuts and create the following shortcuts:
 
+- ```
+// Switch to Headset
+SwitchAudioSource -t output -s "Plantronics Blackwire 5220 Series" && SwitchAudioSource -t input -s "Plantronics Blackwire 5220 Series"
 ```
-// Switch to headset
-/opt/homebrew/bin/SwitchAudioSource -t output -s "Plantronics Blackwire 5220 Series" \
-&& \
-/opt/homebrew/bin/SwitchAudioSource -t input -s "Plantronics Blackwire 5220 Series"
-```
-<img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/sound-notifications/headset.png" width="60%" />
+- <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/sound-notifications/headset.png" width="60%" />
 
+
+- ```
+# Switch to Speakers
+SwitchAudioSource -t output -s "MacBook Pro Speakers" && SwitchAudioSource -t input -s "Logitech BRIO"
 ```
-# Switch to Macbook
-/opt/homebrew/bin/SwitchAudioSource -t output -s "MacBook Pro Speakers" \
-&& \
-/opt/homebrew/bin/SwitchAudioSource -t input -s "Logitech BRIO"
-```
-<img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/sound-notifications/speakers.png" width="60%" />
+- <img src="https://github.com/shabazfarooq/personal-mac-setup/blob/master/images/sound-notifications/speakers.png" width="60%" />
 
 
 
