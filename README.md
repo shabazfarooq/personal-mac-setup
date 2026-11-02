@@ -1206,3 +1206,348 @@ Add to preferences:
   }
 ]
 ```
+
+
+---
+# VSCode #
+# VSCode #
+# VSCode #
+# VSCode #
+# VSCode #
+# VSCode #
+# VSCode #
+---
+
+
+Settings
+```
+{
+	"[javascript]": {
+		// "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"codeium.enableConfig": {
+		"*": true,
+		"apex": true
+	},
+	"editor.autoClosingBrackets": "never",
+	"editor.autoClosingComments": "never",
+	"editor.autoClosingQuotes": "never",
+	"editor.fontSize": 14,
+	// Matching bracket guides
+	"editor.guides.bracketPairs": "active",
+	"editor.inlineSuggest.edits.experimental.enabled": false,
+	"editor.inlineSuggest.enabled": true,
+	"editor.linkedEditing": true, // xml tag highlights
+	"editor.renderWhitespace": "all",
+	"editor.rulers": [
+		80,
+		100
+	],
+	"editor.selectionHighlight": true,
+	"editor.tabSize": 2,
+	"explorer.confirmDelete": false,
+	"extensions.ignoreRecommendations": true,
+	"extensions.showRecommendationsOnlyOnDemand": true,
+	"filePathBar.statusBarAlignment": "left",
+	"files.exclude": {
+		"": true
+	},
+	"html.autoClosingTags": false,
+	// the same colors as above but more visible
+	"indentRainbow.colors": [
+		"rgba(255,255,64,0.3)",
+		"rgba(127,255,127,0.3)",
+		"rgba(255,127,255,0.3)",
+		"rgba(79,236,236,0.3)"
+	],
+	// Using the light mode
+	"indentRainbow.indicatorStyle": "light",
+	// we use a simple 1 pixel wide line
+	"indentRainbow.lightIndicatorStyleLineWidth": 1,
+	"multiCommand.commands": [
+		// "when": "resourceExtname != '.apex' && resourceExtname != '.soql'"
+		{
+			"command": "multiCommand.SFDXDeploySource",
+			"sequence": [
+				"workbench.panel.output.focus",
+				"workbench.action.focusActiveEditorGroup",
+				"sf.deploy.current.source.file"
+			]
+		},
+		// "when": "resourceExtname == '.apex'"
+		{
+			"command": "multiCommand.SFDXExecuteApex",
+			"sequence": [
+				"workbench.action.focusActiveEditorGroup",
+				"workbench.panel.output.focus",
+				"workbench.action.focusActiveEditorGroup",
+				"sf.anon.apex.execute.document"
+			]
+		}
+	],
+	"salesforcedx-vscode-core.retrieve-test-code-coverage": true,
+	"search.useIgnoreFiles": false,
+	"security.workspace.trust.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.shellIntegration.enabled": false,
+	"window.commandCenter": false,
+	"window.title": "${rootName}",
+	"workbench.activityBar.location": "top",
+	"workbench.colorCustomizations": {
+		/* Selections */
+		"editor.selectionBackground": "#677696a8",
+		"editor.selectionHighlightBackground": "#ffcc00dd",
+		/* Active Tab */
+		"tab.activeBackground": "#3b4568"
+	},
+	"workbench.colorTheme": "Theme Flat",
+	"workbench.editor.enablePreview": false,
+	"workbench.notifications.centered": true,
+	"workbench.startupEditor": "none",
+	"editor.minimap.enabled": false,
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"raspberry-pi-pico.python3Path": "/opt/homebrew/bin/python3"
+}
+```
+
+Keyboard shortcuts
+```
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"command": "-workbench.view.debug",
+		"key": "shift+cmd+d",
+		"when": "viewContainer.workbench.view.debug.enabled"
+	},
+	{
+		"command": "editor.action.copyLinesDownAction",
+		"key": "shift+cmd+d",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"command": "-editor.action.copyLinesDownAction",
+		"key": "shift+alt+down",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"command": "workbench.action.toggleSidebarVisibility",
+		"key": "cmd+k cmd+j"
+	},
+	{
+		"command": "-workbench.action.toggleSidebarVisibility",
+		"key": "cmd+b"
+	},
+	{
+		"command": "-editor.unfoldAll",
+		"key": "cmd+k cmd+j",
+		"when": "editorTextFocus && foldingEnabled"
+	},
+	{
+		"command": "workbench.action.moveEditorLeftInGroup",
+		"key": "ctrl+shift+pageup"
+	},
+	{
+		"command": "-workbench.action.moveEditorLeftInGroup",
+		"key": "cmd+k shift+cmd+left"
+	},
+	{
+		"command": "workbench.action.moveEditorRightInGroup",
+		"key": "ctrl+shift+pagedown"
+	},
+	{
+		"command": "-workbench.action.moveEditorRightInGroup",
+		"key": "cmd+k shift+cmd+right"
+	},
+	{
+		"command": "-editor.toggleFold",
+		"key": "cmd+k cmd+l",
+		"when": "editorTextFocus && foldingEnabled"
+	},
+	{
+		"command": "editor.action.transformToLowercase",
+		"key": "cmd+k cmd+l"
+	},
+	{
+		"command": "editor.action.moveLinesDownAction",
+		"key": "ctrl+cmd+down",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"command": "-editor.action.moveLinesDownAction",
+		"key": "alt+down",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"command": "editor.action.moveLinesUpAction",
+		"key": "ctrl+cmd+up",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"command": "-editor.action.moveLinesUpAction",
+		"key": "alt+up",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"command": "editor.action.transformToUppercase",
+		"key": "cmd+k cmd+u"
+	},
+	{
+		"command": "sf.org.open",
+		"key": "cmd+o cmd+u"
+	},
+	{
+		"command": "editor.action.blockComment",
+		"key": "shift+cmd+/",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"command": "-editor.action.blockComment",
+		"key": "shift+alt+a",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"command": "extension.paste-indent",
+		"key": "shift+cmd+v"
+	},
+	{
+		"command": "editor.action.duplicateSelection",
+		"key": "shift+alt+d"
+	},
+	{
+		"command": "-aichat.newchataction",
+		"key": "cmd+l"
+	},
+	{
+		"command": "expandLineSelection",
+		"key": "cmd+l",
+		"when": "textInputFocus"
+	},
+	{
+		"command": "-expandLineSelection",
+		"key": "cmd+p",
+		"when": "textInputFocus"
+	},
+	{
+		"command": "-extension.prettyJSON",
+		"key": "alt+cmd+m"
+	},
+	{
+		"command": "workbench.action.openLastEditorInGroup",
+		"key": "cmd+0"
+	},
+	{
+		"command": "workbench.action.openEditorAtIndex1",
+		"key": "cmd+1"
+	},
+	{
+		"command": "workbench.action.openEditorAtIndex2",
+		"key": "cmd+2"
+	},
+	{
+		"command": "workbench.action.openEditorAtIndex3",
+		"key": "cmd+3"
+	},
+	{
+		"command": "workbench.action.openEditorAtIndex4",
+		"key": "cmd+4"
+	},
+	{
+		"command": "workbench.action.openEditorAtIndex5",
+		"key": "cmd+5"
+	},
+	{
+		"command": "workbench.action.openEditorAtIndex6",
+		"key": "cmd+6"
+	},
+	{
+		"command": "workbench.action.openEditorAtIndex7",
+		"key": "cmd+7"
+	},
+	{
+		"command": "workbench.action.openEditorAtIndex8",
+		"key": "cmd+8"
+	},
+	{
+		"command": "workbench.action.openEditorAtIndex9",
+		"key": "cmd+9"
+	},
+	{
+		"command": "workbench.action.focusFirstEditorGroup",
+		"key": "ctrl+1"
+	},
+	{
+		"command": "workbench.action.focusSecondEditorGroup",
+		"key": "ctrl+2"
+	},
+	{
+		"command": "workbench.action.focusThirdEditorGroup",
+		"key": "ctrl+3"
+	},
+	{
+		"command": "composerMode.agent",
+		"key": "cmd+i"
+	},
+	{
+		"command": "multiCommand.SFDXDeploySource",
+		"key": "cmd+b",
+		"when": "resourceExtname != '.apex' && resourceExtname != '.soql'"
+	},
+	{
+		"command": "sf.data.query.selection",
+		"key": "cmd+b",
+		"when": "resourceExtname == '.soql'"
+	},
+	{
+		"command": "workbench.action.terminal.toggleTerminal",
+		"key": "cmd+j",
+		"when": "terminal.active"
+	},
+	{
+		"command": "-workbench.action.terminal.toggleTerminal",
+		"key": "ctrl+`",
+		"when": "terminal.active"
+	},
+	{
+		"command": "-workbench.action.togglePanel",
+		"key": "cmd+j"
+	},
+	{
+		"command": "sf.anon.apex.execute.document",
+		"key": "cmd+b",
+		"when": "resourceExtname == '.apex'"
+	},
+	{
+		"command": "workbench.action.focusActiveEditorGroup",
+		"key": "alt+cmd+j"
+	},
+	{
+		"command": "-workbench.action.openSettings",
+		"key": "cmd+,"
+	},
+	{
+		"command": "workbench.action.openSettingsJson",
+		"key": "cmd+,"
+	},
+	{
+		"command": "workbench.action.openGlobalSettings",
+		"key": "shift+cmd+,"
+	},
+	{
+		"command": "workbench.action.togglePanel",
+		"key": "ctrl+`"
+	},
+	{
+		"key": "shift+cmd+c",
+		"command": "workbench.view.extension.metadata"
+	},
+	{
+		"key": "ctrl+cmd+j",
+		"command": "extension.prettyJSON"
+	}
+]
+```
