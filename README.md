@@ -15,6 +15,7 @@
 - [Obsidian](#Obsidian)
 - [QMK (Keyboard)](#QMK)
 - [VS Code](#VS-Code)
+- [VS Code (Manual)](#VS-Code-Manual)
 - [SF Development](#SF-Development)
 - [Misc Apps](#Misc-Apps)
 - [Switch Audio Source](#Switch-Audio-Source)
@@ -1209,14 +1210,26 @@ Add to preferences:
 
 
 ---
-# VSCode #
-# VSCode #
-# VSCode #
-# VSCode #
-# VSCode #
-# VSCode #
-# VSCode #
+# VS Code Manual #
+# VS Code Manual #
+# VS Code Manual #
+# VS Code Manual #
+# VS Code Manual #
+# VS Code Manual #
+# VS Code Manual #
 ---
+
+Extensions:
+- https://marketplace.visualstudio.com/items?itemName=Atishay-Jain.All-Autocomplete
+- https://marketplace.visualstudio.com/items?itemName=wraith13.file-path-bar
+- https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils
+- https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag
+- https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
+- https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command
+- https://marketplace.visualstudio.com/items?itemName=LesGrieve.paste-indent
+- https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode
+- https://marketplace.visualstudio.com/items?itemName=earshinov.simple-alignment
+- https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme
 
 
 Settings
@@ -1311,7 +1324,10 @@ Settings
 		"markdown": false,
 		"scminput": false
 	},
-	"raspberry-pi-pico.python3Path": "/opt/homebrew/bin/python3"
+	"raspberry-pi-pico.python3Path": "/opt/homebrew/bin/python3",
+	"files.associations": {
+		"*.json": "jsonc"
+	}
 }
 ```
 
@@ -1547,7 +1563,13 @@ Keyboard shortcuts
 	},
 	{
 		"key": "ctrl+cmd+j",
-		"command": "extension.prettyJSON"
+		"command": "editor.action.formatDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "-editor.action.formatDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
 	}
 ]
 ```
